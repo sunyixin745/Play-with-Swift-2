@@ -2,6 +2,16 @@
 
 import UIKit
 
+// 类型名，第一个字母大写
+// 变量名，第一个字母小写
+let imInt:    Int     = 3
+let imFloat:  Float   = 3.14
+let imDouble: Double  = 3.1415926
+let imCGFloat:CGFloat = 9.0
+let imBool:   Bool    = true
+let imString: String  = "Hello, swift:)"
+
+
 // 使用表情符作为变量名称
 var 名字 = "liuyubobobo"
 print("我的名字是" + 名字)
