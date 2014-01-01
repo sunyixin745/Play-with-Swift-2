@@ -33,7 +33,7 @@ var isUsernameOK = false
 var isPasswordOK = false
 
 var isPhoneNumberOK = true
-var isPhoneCodeOK = true
+var isPhoneCodeOK = false
 
 if (isUsernameOK && isPasswordOK) ||
     (isPhoneNumberOK && isPhoneCodeOK){

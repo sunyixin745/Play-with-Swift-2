@@ -3,7 +3,7 @@
 import UIKit
 
 var battery = 21
-var batteryColor:UIColor
+let batteryColor:UIColor
 if battery <= 20{
     batteryColor = UIColor.redColor()
 }
@@ -14,4 +14,4 @@ batteryColor
 
 
 let batteryColor2 = battery <= 20 ? UIColor.redColor() : UIColor.greenColor()
-batteryColor
+
