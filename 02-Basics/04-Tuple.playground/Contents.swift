@@ -24,6 +24,11 @@ let point3 = ( x: 2 , y: 1 )
 point3.x
 point3.y
 
+let point4: (x:Int , y:Int) = (3,4)
+point4.x
+point4.y
+
+
 let loginResult = ( true , "liuyubobobo" )
 let ( isLoginSuccess , _ ) = loginResult
 if isLoginSuccess{
