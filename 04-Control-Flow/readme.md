@@ -2,27 +2,27 @@
 
 **Chapter Four: Control Flow**
 
-   * 4-1 Loop - ``for-in`` and ``for`` [**课程视频**](http://t.imooc.com/video/11402)
+   * 4-1 Loop - ``for-in`` and ``for`` [**Course Video**](http://t.imooc.com/video/11402)
       * [01-1 for-in](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/01-1-Loop-for-in.playground/Contents.swift) 
       * [01-2 for](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/01-2-Loop-for.playground/Contents.swift)
-   * 4-2 Loop - ``while`` and ``repeat`` [**课程视频**](http://t.imooc.com/video/11403)
+   * 4-2 Loop - ``while`` and ``repeat`` [**Course Video**](http://t.imooc.com/video/11403)
       * [02-1 while](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/02-1-Loop-while.playground/Contents.swift)
       * [02-2 repeat](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/02-2-Loop-repeat.playground/Contents.swift)
       * [02-3 break and continue](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/02-3-break-and-continue.playground/Contents.swift)
-   * 4-3 Conditional Statements - ``if``, ``else`` and ``switch`` [**课程视频**](http://t.imooc.com/video/11404)
+   * 4-3 Conditional Statements - ``if``, ``else`` and ``switch`` [**Course Video**](http://t.imooc.com/video/11404)
       * [03 if, else and switch](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/03-if-else-switch.playground/Contents.swift) 
-   * 4-4 Advanced ``switch`` [**课程视频**](http://t.imooc.com/video/11405)
+   * 4-4 Advanced ``switch`` [**Course Video**](http://t.imooc.com/video/11405)
       * [04-1 interval matching](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/04-switch-advanced-1.playground/Contents.swift)
       * [04-2 tuple matching](https://github.com/liuyu3obobo/Play-with-Swift-2/blob/master/04-Control-Flow/04-switch-advanced-2.playground/Contents.swift)
       * [04-3 match any in tuple matching](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/04-switch-advanced-3.playground/Contents.swift)
       * [04-4 fall through](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/04-switch-fallthrough.playground/Contents.swift) 
-   * 4-5 Control Transfer [**课程视频**](http://t.imooc.com/video/11406)
+   * 4-5 Control Transfer [**Course Video**](http://t.imooc.com/video/11406)
       * [05 control transfer](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/05-control-transfer.playground/Contents.swift)
-   * 4-6 ``where`` and Pattern Matching [**课程视频**](http://t.imooc.com/video/11407)
+   * 4-6 ``where`` and Pattern Matching [**Course Video**](http://t.imooc.com/video/11407)
       * [06-1 where in switch](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/06-1-where-in-switch.playground/Contents.swift)
       * [06-2 if case where](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/06-2-if-case-where.playground/Contents.swift)
       * [06-3 for case where](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/06-3-for-case-where.playground/Contents.swift)  
-   * 4-7 ``guard`` and Code Style of Swift **课程视频**
+   * 4-7 ``guard`` and Code Style of Swift **Course Video**
       * [07 guard](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/07-guard.playground/Contents.swift)
 
 ---
