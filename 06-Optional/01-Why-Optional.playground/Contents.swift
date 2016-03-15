@@ -15,11 +15,15 @@ errorCode = nil
 print( errorCode )
 
 
-// 可选型不能直接使用
-//errorCode + 20
+var color: UIColor? = nil
 
 
 // Int? 和 Int 不是一种类型
 let imInt = 405
 errorCode = imInt
 //imInt = errorCode
+
+
+// 必须显示地声明可选型的类型
+//var imOptional = nil
+var imOptional: String? = nil

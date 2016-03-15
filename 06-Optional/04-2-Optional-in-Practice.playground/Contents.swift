@@ -4,14 +4,13 @@ import UIKit
 
 
 // Int()
-var ageInput: String? = "16"
+var ageInput: String = "16"
 
-let age = Int(ageInput!)
+let age = Int(ageInput)
 
-if let theAgeStr = ageInput,
-    age = Int(theAgeStr) where age < 18{
+if let age = Int(ageInput) where age < 20{
         
-    print("\(18-age) years before college")
+    print("You're a teenager!")
 }
 
 

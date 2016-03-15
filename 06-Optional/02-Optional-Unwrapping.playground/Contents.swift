@@ -3,7 +3,7 @@
 import UIKit
 
 var errorCode:String? = "404"
-
+print( errorCode )
 
 // 可选型不可以直接使用
 //"The errorCode is" + errorCode
