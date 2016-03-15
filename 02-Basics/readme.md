@@ -1,4 +1,4 @@
-##Catalogue - 课程目录
+##Catalogue - 本章目录
 
 **Chapter Two：Basic Types**
 

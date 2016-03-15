@@ -11,6 +11,8 @@
    * 3-4 Range Operator and ``for-in`` [**课程视频**](http://t.imooc.com/video/11401)
       * [04 Range Operator and for-in](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/03-Operators/04-Range-Operator.playground/Contents.swift)
 
+---
+
 **第三章 运算符** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/03-Operators)
 
    * 3-1 基础运算符 [**课程视频**](http://t.imooc.com/video/11398)
