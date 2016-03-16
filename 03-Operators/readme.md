@@ -1,6 +1,6 @@
 ##Catalogue - 本章目录
 
-**Chapter Three: Operator** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/03-Operators)
+**Chapter Three: Operator**
 
    * 3-1 Basic Operators [**Course Video**](http://t.imooc.com/video/11398)
       * [01 Basic Operators](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/03-Operators/01-Basic-Operator.playground/Contents.swift)
@@ -13,7 +13,7 @@
 
 ---
 
-**第三章 运算符** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/03-Operators)
+**第三章 运算符**
 
    * 3-1 基础运算符 [**课程视频**](http://t.imooc.com/video/11398)
       * [01 基础运算符](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/03-Operators/01-Basic-Operator.playground/Contents.swift)

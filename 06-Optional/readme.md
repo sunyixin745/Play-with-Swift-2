@@ -1,6 +1,6 @@
 ##Catalogue - 本章目录
 
-* **Chapter Six: Optional** 
+**Chapter Six: Optional** 
 
    * 6-1 Why Optional [**Course Video**]
       * [01 Why Optional](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/06-Optional/01-Why-Optional.playground/Contents.swift)

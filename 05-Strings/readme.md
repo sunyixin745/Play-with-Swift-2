@@ -1,6 +1,6 @@
 ##Catalogue - 本章目录
 
-**Chapter Five：String** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/05-Strings)
+**Chapter Five：String**
 
    * 5-1 String Basics [**Course Video**](http://t.imooc.com/video/11408)
       * [01 String Basics](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/05-Strings/01-String-Basics.playground/Contents.swift)
@@ -14,7 +14,7 @@
 
 ---
 
-**第五章：字符串** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/05-Strings)
+**第五章：字符串**
 
    * 5-1 字符串基础 [**课程视频**](http://t.imooc.com/video/11408)
       * [01 字符串基础](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/05-Strings/01-String-Basics.playground/Contents.swift)

@@ -1,6 +1,7 @@
 ##Catalogue - 本章目录
 
-### **Chapter One - Introduction**
+**Chapter One - Introduction**
+
    * 1-1 Let's play with Swift 2 [**Course Video**](http://t.imooc.com/video/11387)
    * 1-2 Swift and iOS Development [**Course Video**](http://t.imooc.com/video/11388)
    * 1-3 Swift vs Objective-C [**Course Video**](http://t.imooc.com/video/11389)
@@ -15,7 +16,8 @@
 
 ---
 
-###**第一章：玩儿转 Swift 2**
+**第一章：玩儿转 Swift 2**
+
    * 1-1 让我们一起玩儿转Swift [**课程视频**](http://t.imooc.com/video/11387)
    * 1-2 Swift语言和iOS开发 [**课程视频**](http://t.imooc.com/video/11388)
    * 1-3 Swift语言和OC语言 [**课程视频**](http://t.imooc.com/video/11389)
