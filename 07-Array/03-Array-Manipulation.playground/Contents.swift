@@ -8,20 +8,19 @@ var courses = ["玩儿转Swift","玩儿转Swift2(第一季)","玩儿转Swift2(�
 courses.append("玩儿转Swift2(第三季)")
 print(courses)
 
+// 数组常量
+//使用let定义的数组不可以更改任何内容
+
 courses += ["玩儿转Swift2(第四季)"]
 print(courses)
 
 // 两个数组相加
-courses += ["玩儿转Swift面向协议编程","玩儿转Swift面向函数编程"]
+courses = courses + ["玩儿转Swift面向协议编程","玩儿转Swift面向函数编程"]
 print(courses)
 
 courses.insert("玩儿转Swift设计模式", atIndex: 5)
 //courses.insert("玩儿转Swift设计模式", atIndex: 10)
 print(courses)
-
-
-// 数组常量
-//使用let定义的数组不可以更改任何内容
 
 
 // 删除元素

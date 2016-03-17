@@ -12,8 +12,8 @@ var vowels  = ["A","E","I","O","U"]
 
 // 空数组
 var emptyArray1:[Int] = []
-var emptyArray2 = [Int]()
-var emptyArray3:Array<Int> = []
+var emptyArray2:Array<Int> = []
+var emptyArray3 = [Int]()
 var emptyArray4 = Array<Int>()
 
 // 创建具有默认值的数组
