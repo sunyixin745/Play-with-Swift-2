@@ -100,6 +100,8 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>]() on [**imo
       * [04 NSString](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/05-Strings/04-NSString.playground/Contents.swift)
    * 5-5 Refer to the Documents [**Course Video**](http://t.imooc.com/video/11412)
 
+
+### **Season Two**
 * **Chapter Six: Optional** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/06-Optional)
    * 6-1 Why Optional [**Course Video**]
       * [01 Why Optional](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/06-Optional/01-Why-Optional.playground/Contents.swift)
@@ -113,6 +115,18 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>]() on [**imo
       * [04-2 Optional in Practice](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/06-Optional/04-2-Optional-in-Practice.playground/Contents.swift)
    * 6-5 Implicity Unwrapped Optional [**Course Video**]
       * [05 Implicity Unwrapped Optional](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/06-Optional/05-Implicity-Unwrapped-Optionals.playground/Contents.swift) 
+      
+* **Chapter Seven: Array** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/07-Array)
+   * 7-1 Array Initialization [**Course Video**]
+      * [01 Array Initalization](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/07-Array/01-Array-Initialization.playground/Contents.swift)
+   * 7-2 Array Basics [**Course Video**]
+      * [02 Array Basics](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/07-Array/02-Array-Basics.playground/Contents.swift)
+   * 7-3 Array Manipulation [**Course Video**]
+      * [03 Array Manipulation](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/07-Array/03-Array-Manipulation.playground/Contents.swift)
+   * 7-4 2D-Array [**Course Video**]
+      * [04 2D-Array](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/07-Array/04-Two-Dimensional-Array.playground/Contents.swift)
+   * 7-5 NSArray [**Course Video**]
+      * [05 NSArray](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/07-Array/05-NSArray.playground/Contents.swift)
       
 ---
 
@@ -190,6 +204,8 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>]() on [**imo
       * [04 NSString](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/05-Strings/04-NSString.playground/Contents.swift)
    * 5-5 文档查询 [**课程视频**](http://t.imooc.com/video/11412)
 
+
+###**第二季**
 * **第六章 可选型** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/06-Optional)
    * 6-1 为什么要有可选型 [**课程视频**]
       * [01 为什么要有可选型](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/06-Optional/01-Why-Optional.playground/Contents.swift)
@@ -203,5 +219,17 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>]() on [**imo
       * [04-2 更多可选型的实际使用](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/06-Optional/04-2-Optional-in-Practice.playground/Contents.swift)
    * 6-5 隐式可选型 [**课程视频**]
       * [05 隐式可选型](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/06-Optional/05-Implicity-Unwrapped-Optionals.playground/Contents.swift)
+
+* **第七章 数组** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/07-Array)
+   * 7-1 数组初始化 [**课程视频**]
+      * [01 数组初始化](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/07-Array/01-Array-Initialization.playground/Contents.swift)
+   * 7-2 数组的基本用法 [**课程视频**]
+      * [02 数组基本用法](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/07-Array/02-Array-Basics.playground/Contents.swift)
+   * 7-3 数组的更多操作 [**课程视频**]
+      * [03 数组的更多操作](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/07-Array/03-Array-Manipulation.playground/Contents.swift)
+   * 7-4 二维数组 [**课程视频**]
+      * [04 二维数组](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/07-Array/04-Two-Dimensional-Array.playground/Contents.swift)
+   * 7-5 NSArray [**课程视频**]
+      * [05 NSArray](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/07-Array/05-NSArray.playground/Contents.swift)
 
       
