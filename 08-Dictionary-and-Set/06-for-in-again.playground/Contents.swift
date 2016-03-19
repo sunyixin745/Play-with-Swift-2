@@ -56,13 +56,14 @@ dict.keys
 
 // 可迭代
 
-vowels.removeAll(keepCapacity: <#T##Bool#>)
-vowels.replaceRange(<#T##subRange: Range<Int>##Range<Int>#>, with: <#T##CollectionType#>)
 
-dict.prefixUpTo(<#T##end: DictionaryIndex<Int, String>##DictionaryIndex<Int, String>#>)
-
-set.insert(<#T##member: Hashable##Hashable#>)
-set.union(<#T##sequence: SequenceType##SequenceType#>)
-set.prefixThrough(<#T##position: SetIndex<String>##SetIndex<String>#>)
+//vowels.removeAll(keepCapacity: <#T##Bool#>)
+//vowels.replaceRange(<#T##subRange: Range<Int>##Range<Int>#>, with: <#T##CollectionType#>)
+//
+//dict.prefixUpTo(<#T##end: DictionaryIndex<Int, String>##DictionaryIndex<Int, String>#>)
+//
+//set.insert(<#T##member: Hashable##Hashable#>)
+//set.union(<#T##sequence: SequenceType##SequenceType#>)
+//set.prefixThrough(<#T##position: SetIndex<String>##SetIndex<String>#>)
 
 
