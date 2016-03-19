@@ -3,16 +3,16 @@
 import UIKit
 
 
-var user = ["name":"liuyubobobo", "password":"liuyubo", "occupation":"programmer"]
+var user = ["name":"bobobo", "password":"liuyubo", "occupation":"programmer"]
 
 // let的字典是不可修改的
 
 // 修改值
 user["occupation"] = "freelancer"
-user.updateValue("immoc", forKey: "password")
+user.updateValue("imooc", forKey: "password")
 
-let oldPassword = user.updateValue("immoc", forKey: "password")
-if let oldPassword = oldPassword, newPassword = user["password"]{
+let oldPassword = user.updateValue("imooc", forKey: "password")
+if let oldPassword = oldPassword, newPassword = user["password"] where oldPassword == newPassword{
     print("注意：修改后的密码和之前一样，可能导致安全问题！")
 }
 

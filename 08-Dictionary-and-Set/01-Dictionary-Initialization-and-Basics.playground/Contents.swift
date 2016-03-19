@@ -20,6 +20,10 @@ var emptyDictionary4 = Dictionary<Int,Int>()
 dict["swift"]
 dict["C++"]
 
+if let value = dict["swift"]{
+    print("swift 的意思是 - \(value)")
+}
+
 
 // 字典数据数量
 dict.count

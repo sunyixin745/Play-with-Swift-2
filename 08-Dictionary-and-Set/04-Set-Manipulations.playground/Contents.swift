@@ -14,11 +14,19 @@ var skillsOfC: Set<String> = []
 skillsOfC.insert("swift")
 skillsOfC.insert("HTML")
 skillsOfC.insert("CSS")
+// 重复添加元素
+skillsOfC.insert("CSS")
 
 
 // 删除元素
 skillsOfC.remove("CSS")
+// 删除没有的元素
 skillsOfC.remove("Javascript")
+
+if let skill = skillsOfC.remove("HTML"){
+    print("HTML is removed.")
+}
+
 //skillsOfC.removeAll()
 
 
@@ -43,13 +51,13 @@ skillsOfA.exclusiveOr(skillsOfC)
 
 
 // 操作对象可以是数组
-skillsOfA.unionInPlace(["java","android"])
+skillsOfA.union(["java","android"])
 
 
 skillsOfA
 skillsOfB
 skillsOfC
-var skillsOfD: Set = ["java","android"]
+var skillsOfD: Set = ["swift"]
 
 // 子集
 skillsOfD.isSubsetOf(skillsOfA)
