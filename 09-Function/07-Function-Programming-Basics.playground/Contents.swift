@@ -18,7 +18,7 @@ scores.map(isPassOrFail)
 
 // filter
 func pass(score: Int) -> Bool{
-    return score >= 60
+    return score < 60
 }
 scores.filter(pass)
 

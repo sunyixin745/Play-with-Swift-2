@@ -12,8 +12,7 @@ sayHelloTo("bobo")
 
 // 函数参数中包含可选型
 func sayHelloTo( name: String? ) -> String{
-    let greeting = "Hello " + (name ?? "Guest")
-    return greeting
+    return "Hello " + (name ?? "Guest")
 }
 
 var nickname: String?
