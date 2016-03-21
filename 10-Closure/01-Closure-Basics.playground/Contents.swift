@@ -16,6 +16,7 @@ func biggerNumberFirst(a:Int , _ b:Int) -> Bool{
 arr.sort(biggerNumberFirst)
 
 
+// 使用闭包
 arr.sort({ (a: Int , b: Int) -> Bool in
     return a > b
 })

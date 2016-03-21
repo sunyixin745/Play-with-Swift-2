@@ -7,13 +7,17 @@ for _ in 0..<10{
     arr.append(random()%1000)
 }
 
-arr.sort({ $0 > $1})
+arr.sort({ a , b in return a > b})
 
 
 // Trailing Closure
-arr.sort(){ $0 > $1}
+arr.sort(){ a , b in
+    return a > b
+}
 
-arr.sort{ $0 > $1 }
+arr.sort{ a , b in
+    return a > b
+}
 
 
 arr.map{ (var number) -> String in
