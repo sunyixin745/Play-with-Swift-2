@@ -2,12 +2,24 @@
 
 import UIKit
 
+
+func changeScores( inout scores: [Int] , by changeScore: (Int)->Int ){
+    
+    for (index,score) in scores.enumerate(){
+        scores[index] = changeScore(score)
+    }
+}
+
+func changeScore(score: Int) -> Int{
+    return Int(sqrt(Double(score))*10)
+}
+
+
 var scores = [65, 91, 45, 97, 87, 72, 33]
+changeScores(&scores, by: changeScore)
+
 
 // map
-func changeScore(score: Int) -> Int{
-    return score + 3
-}
 scores.map(changeScore)
 
 func isPassOrFail(score: Int) -> String{
@@ -17,10 +29,10 @@ scores.map(isPassOrFail)
 
 
 // filter
-func pass(score: Int) -> Bool{
+func fail(score: Int) -> Bool{
     return score < 60
 }
-scores.filter(pass)
+scores.filter(fail)
 
 
 // reduce

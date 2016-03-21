@@ -7,7 +7,7 @@ import UIKit
 func initArray( inout arr: [Int] , by value: Int ){
     
     for i in 0..<arr.count{
-        arr[i] = 0
+        arr[i] = value
     }
 }
 

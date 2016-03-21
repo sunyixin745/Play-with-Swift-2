@@ -15,11 +15,15 @@ arr
 // 默认排序
 
 arr.sort()
+arr
+
+//arr.sortInPlace()
+//arr
 
 
 // 在排序中使用函数参数
 
-func biggerNumberFirst(a:Int , _ b:Int) ->Bool{
+func biggerNumberFirst( a: Int , _ b: Int) -> Bool{
 //    if a > b{
 //        return true
 //    }
@@ -31,15 +35,17 @@ func biggerNumberFirst(a:Int , _ b:Int) ->Bool{
 arr.sort(biggerNumberFirst)
 
 
-func nearBy500(a:Int , _ b:Int)->Bool{
+func cmpByNumberString( a: Int , _ b: Int ) -> Bool{
     
-//    if abs(a-500) < abs(b-500){
-//        return true
-//    }
-//    
-//    return false
+    return String(a) < String(b)
+}
+
+arr.sort( cmpByNumberString )
+
+
+func near500(a:Int , _ b:Int)->Bool{
     
     return abs(a-500) < abs(b-500) ? true : false
 }
 
-arr.sort(nearBy500)
+arr.sort(near500)

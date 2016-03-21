@@ -3,6 +3,14 @@
 import UIKit
 
 
+func changeScores( inout scores: [Int] , by changeScore: (Int)->Int ){
+    
+    for (index,score) in scores.enumerate(){
+        scores[index] = changeScore(score)
+    }
+}
+
+
 func changeScore1( score: Int ) -> Int{
     
     return Int(sqrt(Double(score))*10)
@@ -11,14 +19,6 @@ func changeScore1( score: Int ) -> Int{
 func changeScore2( score: Int ) -> Int{
     
     return Int( Double(score) / 150.0 * 100.0 )
-}
-
-
-func changeScores( inout scores: [Int] , by changeScore: (Int)->Int ){
-    
-    for (index,score) in scores.enumerate(){
-        scores[index] = changeScore(score)
-    }
 }
 
 
