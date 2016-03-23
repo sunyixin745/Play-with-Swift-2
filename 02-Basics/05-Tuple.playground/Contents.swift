@@ -46,3 +46,13 @@ if isLoginSuccess{
 else{
     print("Login failed!")
 }
+
+
+// 元组的比较
+// Swift 2.2中新添加了元组的比较功能，但是这个概念还是非常好理解的：）
+point3 < point4
+point > point2
+
+let error1 = ( "404" , "Not found" )
+let error2 = ( "400" , "Bad Request" )
+error1 > error2
