@@ -20,6 +20,9 @@ str.hasSuffix("swift")
 let s = "one third is \(1.0/3.0)"
 print(s)
 
+// 注意：现在Swift中的String和OC中的NSString之间的界限越来越小，如使用format初始化一个String，在Swift2中已经可以了。具体代码如下：
+let ss = String(format: "one third is %.2f", 1.0/3.0)
+
 
 // as String
 let s2 = NSString(format: "one third is %.2f😀", 1.0/3.0) as String
