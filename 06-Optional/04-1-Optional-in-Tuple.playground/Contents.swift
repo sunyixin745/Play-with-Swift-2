@@ -12,7 +12,3 @@ error2 = nil
 var error3:(errorCode: Int, errorMessage: String?)? = ( 404 , "Not Found")
 error3 = nil
 
-
-
-
-

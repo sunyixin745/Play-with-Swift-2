@@ -19,6 +19,3 @@ var greetings = "Hello"
 greetings.rangeOfString("ll")
 greetings.rangeOfString("mm")
 
-
-
-
