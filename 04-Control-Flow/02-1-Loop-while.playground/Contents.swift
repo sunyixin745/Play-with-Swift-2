@@ -7,7 +7,7 @@ var bWin = 0
 var game = 0
 while aWin < 3 && bWin < 3{
     
-    game++
+    game += 1
     
     let a = arc4random_uniform(6)+1
     let b = arc4random_uniform(6)+1
@@ -15,12 +15,12 @@ while aWin < 3 && bWin < 3{
     if a > b{
         print("A win!")
         bWin = 0
-        aWin++
+        aWin += 1
     }
     else if a < b{
         print("B win!")
         aWin = 0
-        bWin++
+        bWin += 1
     }
     else{
         print("draw")
