@@ -20,7 +20,10 @@ arr.sort{ a , b in
 }
 
 
-arr.map{ (var number) -> String in
+arr.map{ number -> String in
+    
+    var number = number
+    
     var res = ""
     repeat{
         res = String(number%2) + res
