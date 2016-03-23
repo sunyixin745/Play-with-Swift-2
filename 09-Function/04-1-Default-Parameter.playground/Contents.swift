@@ -4,13 +4,13 @@ import UIKit
 
 
 // 有一个默认参数
-func sayHelloTo( name: String , withGreetingWord greeting: String = "Hello" ) -> String{
-    
-    return "\(greeting), \(name)!"
-}
-
-sayHelloTo("Playground", withGreetingWord: "Hi")
-sayHelloTo("Playground")
+//func sayHelloTo( name: String , withGreetingWord greeting: String = "Hello" ) -> String{
+//    
+//    return "\(greeting), \(name)!"
+//}
+//
+//sayHelloTo("Playground", withGreetingWord: "Hi")
+//sayHelloTo("Playground")
 
 
 // 有多个默认参数

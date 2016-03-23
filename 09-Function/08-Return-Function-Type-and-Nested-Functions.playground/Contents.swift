@@ -22,3 +22,5 @@ func feeByUnitPrice( price: Int , weight: Int ) -> Int{
     let mailFeeByWeight = chooseMailFeeCalculationByWeight(weight)
     return mailFeeByWeight( weight ) + price * weight
 }
+
+feeByUnitPrice(50, weight: 20)
