@@ -33,5 +33,3 @@ if let email = user.removeValueForKey("email"){
 
 user.removeAll()
 
-
-
