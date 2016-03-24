@@ -1,10 +1,14 @@
 ##Play with Swift 2 - 玩儿转 Swift 2
 
-**Support the newest Xcode7.3 and Swift2.2!**
+**Support the newest Xcode7.3 and Swift2.2! 现已支持Swift最新版本 Xcode7.3 Swift2.2!**
 
-**现已支持Swift最新版本 Xcode7.3 Swift2.2!**
+---
 
-Welcome! This repo is based on the MOOC course [<Play with Swift 2>]() on [**imooc.com**](http://www.imooc.com), one of the toppest MOOC website in China. As the teacher of this brand new **Swift** course, I put all the demos' codes here for everyone to test and comment. If you find any bug, or have any suggestion, even brilliant ideas which can make this course better, please contact me:)
+写在前面的话：非常感谢大家的支持！很多同学建议我建立swift的技术交流群。对此，我一直很犹豫，这之间的度很难把握。一方面，讨论很容易跑偏，变成大家抱怨工作领导的场所；另一方面，容易极端化，成为新人扔代码让老人调试的场所。高效而有意义的技术讨论需要一个很微妙的“度”。怎么创建一个有这么精妙的“度”的讨论环境？我没有信心。但是看swift从1走到3，一步一个坎，让我明白了，即使是苹果——这个全世界市值最大的公司——也无法做到一下子完美无缺，更何况是我？大家一起交流，才能进步。Swift也是在开源社区的带动下，日趋完善的。为此，我想做个尝试，建立swift技术交流群！希望大家支持我，给我建议，希望我们能一起创建些什么。感兴趣的同学，请微信搜索liuyubobobo，加我好友，标注：swift交流。
+
+---
+
+Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.imooc.com/comment/635) on [**imooc.com**](http://www.imooc.com), one of the toppest MOOC website in China. As the teacher of this brand new **Swift** course, I put all the demos' codes here for everyone to test and comment. If you find any bug, or have any suggestion, even brilliant ideas which can make this course better, please contact me:)
 
 **Personal Website**: [liuyubobobo.com](http://liuyubobobo.com)
 
