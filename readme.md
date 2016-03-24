@@ -164,6 +164,19 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>]() on [**imo
       * [map, filter, reduce and Function Programming](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/09-Function/07-3-Function-Programming-Basics.playground/Contents.swift)
    * 9-8 Return a Function Type and Nested Functions [**Course Video**]
       * [Return a Function Type and Nested Functions](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/09-Function/08-Return-Function-Type-and-Nested-Functions.playground/Contents.swift)
+
+* **Chapter Ten: Closure** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/10-Closure)
+   * 10-1 Closure Basics [**Course Video**]
+      * [Closure Basics](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/10-Closure/01-Closure-Basics.playground/Contents.swift)
+   * 10-2 Closure Syntax Simplification [**Course Video**]
+      * [Closure Syntax Simplification](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/10-Closure/02-Advanced-Closure.playground/Contents.swift)
+   * 10-3 Trailing Closure [**Course Video**]
+      * [Trailing Closure Syntax](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/10-Closure/03-1-Trailing-Closure.playground/Contents.swift)
+      * [Tailing Closure in Animation](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/10-Closure/03-2-Trailing-Closure-in-Animation.playground/Contents.swift)
+   * 10-4 Capture Value [**Course Video**]
+      * [Capture Value](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/10-Closure/04-Capture-Value.playground/Contents.swift)
+   * 10-5 Function and Closure are Reference Types [**Course Video**]
+      * [Function and Closure are Reference Types](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/10-Closure/05-Function-and-Closure-is-Reference.playground/Contents.swift)
       
 ---
 
@@ -241,6 +254,7 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>]() on [**imo
       * [04 NSString](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/05-Strings/04-NSString.playground/Contents.swift)
    * 5-5 文档查询 [**课程视频**](http://t.imooc.com/video/11412)
 
+---
 
 ###**第二季**
 * **第六章 可选型** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/06-Optional)
@@ -306,4 +320,17 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>]() on [**imo
    * 9-8 返回函数类型和函数嵌套 [**课程视频**]
       * [返回函数类型，与函数嵌套](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/09-Function/08-Return-Function-Type-and-Nested-Functions.playground/Contents.swift)
 
-      
+* **第十章 闭包** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/10-Closure)
+   * 10-1 闭包的基本语法 [**课程视频**]
+      * [闭包的基本语法](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/10-Closure/01-Closure-Basics.playground/Contents.swift)
+   * 10-2 闭包语法的简化 [**课程视频**]
+      * [闭包语法的简化](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/10-Closure/02-Advanced-Closure.playground/Contents.swift)
+   * 10-3 结尾闭包 [**课程视频**]
+      * [Trailing Closure的语法](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/10-Closure/03-1-Trailing-Closure.playground/Contents.swift)
+      * [在动画中使用Tailing Closure](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/10-Closure/03-2-Trailing-Closure-in-Animation.playground/Contents.swift)
+   * 10-4 内容捕获 [**课程视频**]
+      * [内容捕获](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/10-Closure/04-Capture-Value.playground/Contents.swift)
+   * 10-5 闭包和函数是引用类型 [**课程视频**]
+      * [闭包和函数是引用类型](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/10-Closure/05-Function-and-Closure-is-Reference.playground/Contents.swift)
+
+--- 
