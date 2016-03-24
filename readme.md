@@ -1,5 +1,9 @@
 ##Play with Swift 2 - 玩儿转 Swift 2
 
+**Support the newest Xcode7.3 and Swift2.2!**
+
+**现已支持Swift最新版本 Xcode7.3 Swift2.2!**
+
 Welcome! This repo is based on the MOOC course [<Play with Swift 2>]() on [**imooc.com**](http://www.imooc.com), one of the toppest MOOC website in China. As the teacher of this brand new **Swift** course, I put all the demos' codes here for everyone to test and comment. If you find any bug, or have any suggestion, even brilliant ideas which can make this course better, please contact me:)
 
 **Personal Website**: [liuyubobobo.com](http://liuyubobobo.com)

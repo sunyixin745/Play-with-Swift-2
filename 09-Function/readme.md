@@ -1,6 +1,6 @@
 ##Catalogue - 本章目录
 
-**Chapter Nine: Function** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/09-Function)
+**Chapter Nine: Function**
 
    * 9-1 Function Basics and the Style of Function Name [**Course Video**]
       * [Function Basics and the Style of Function Name](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/09-Function/01-Function-Basics.playground/Contents.swift)
@@ -27,7 +27,7 @@
 
 --- 
 
-**第九章 函数** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/09-Function)
+**第九章 函数** [**源码**]
 
    * 9-1 函数基础与函数名 [**课程视频**]
       * [函数基础与函数名](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/09-Function/01-Function-Basics.playground/Contents.swift)
