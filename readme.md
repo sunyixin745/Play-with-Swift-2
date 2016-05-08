@@ -184,6 +184,21 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 ---
 
 ### **Season Three**
+   
+* **Chapter Eleven: Enumeration** [**CODE**]
+   * 11-1 Why Enumeration [**Course Video**]
+      * [Why Enumeration]
+   * 11-2 Enumeration Basics [**Course Video**]
+      * [Enumeration Basics]
+   * 11-3 Raw Value [**Course Video**]
+      * [Raw Value]
+   * 11-4 Associate Values [**Course Video**]
+      * [Associate Value Basics]
+      * [Use Tuple as Associate Values]
+   * 11-5 Enumeration in UIKit [**Course Video**]
+      * [Enumeration in UIKit]
+   * 11-6 Optional Type is Actually Enumeration [**Course Video**]
+      * [Optional Type is Enumeration]
       
 ---
 
@@ -343,3 +358,4 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 --- 
 
 ###**第三季**
+
