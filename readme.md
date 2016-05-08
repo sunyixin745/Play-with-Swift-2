@@ -359,7 +359,7 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 
 ###**第三季**
 
-* **第十一章: 枚举 [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/11-Enumeration)
+* **第十一章: 枚举** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/11-Enumeration)
    * 11-1 为什么要使用枚举 [**课程视频**]
       * [为什么要使用枚举](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/01-Why-Enumeration.playground/Contents.swift)
    * 11-2 枚举语法基础 [**课程视频**]
