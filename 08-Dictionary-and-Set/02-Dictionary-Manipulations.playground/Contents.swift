@@ -27,6 +27,7 @@ user
 
 // 删除 键-值 数据对
 user["website"] = nil
+
 if let email = user.removeValueForKey("email"){
     print("电子邮箱 \(email) 删除成功")
 }
