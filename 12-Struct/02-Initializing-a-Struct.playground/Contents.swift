@@ -2,10 +2,13 @@
 
 import UIKit
 
+
 struct Location{
     
     let latitude: Double
     let longitude: Double
+    
+    // 如果不声明自定义的构造函数，结构体会创建一个包含所有参数的默认构造函数
 
     // 构造函数
     init(coordinateString: String){
@@ -41,6 +44,7 @@ struct Location{
     }
     // 也可以为属性设置初值
     // 但设置成初始属性，相应的属性应该是var
+    // 如果所有的属性都有初值，则自动包含了无属性构造函数
     
     
     // 构造函数的规则
@@ -54,7 +58,7 @@ struct Location{
     // 如果可选型是let，则必须有初值。
     let planet: String? = "The Earth"
     
-    // 应该有一个包含所有属性的构造函数
+    // 建议有一个包含所有属性的构造函数
     init(latitude: Double, longitude: Double, placeName: String){
         
         self.latitude = latitude
