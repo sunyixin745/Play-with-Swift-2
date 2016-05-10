@@ -1,0 +1,77 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+struct Location{
+    
+    let latitude: Double
+    let longitude: Double
+
+    // 构造函数
+    init(coordinateString: String){
+        
+        let commaIndex = coordinateString.rangeOfString(",")!.startIndex
+        let firstElement = coordinateString.substringToIndex(commaIndex)
+        let secondElement = coordinateString.substringFromIndex(commaIndex.successor())
+        latitude = Double(firstElement)!
+        longitude = Double(secondElement)!
+        
+        // 也可以使用self表明是自己
+        //self.latitude = Double(firstElement)!
+        //self.longitude = Double(secondElement)!
+    }
+    
+    // 写了任何一个自定义的构造函数，默认构造函数即失效
+    init(latitude: Double, longitude: Double){
+        
+        // 使用self，表明是自己
+        self.latitude = latitude
+        self.longitude = longitude
+    }
+    
+    // 可以写任意多的构造函数
+    //init(placeName: String){
+    //
+    //}
+    
+    // 没有参数的构造函数
+    init(){
+        latitude = 0.0
+        longitude = 0.0
+    }
+    // 也可以为属性设置初值
+    // 但设置成初始属性，相应的属性应该是var
+    
+    
+    // 构造函数的规则
+    // 必须为所有的成员变量赋值
+    // 其他语言可能有默认值的概念，如对于整型是0；对于布尔值是false
+    // 但是swift语言没有默认值！ - swift语言安全性的又一体现
+    // 只有一个例外——可选型
+    
+    var placeName: String?
+    // 注意可选型应该是var
+    // 如果可选型是let，则必须有初值。
+    let planet: String? = "The Earth"
+    
+    // 应该有一个包含所有属性的构造函数
+    init(latitude: Double, longitude: Double, placeName: String){
+        
+        self.latitude = latitude
+        self.longitude = longitude
+        self.placeName = placeName
+    }
+}
+
+
+let location = Location(coordinateString: "37.3230,-122.0322")
+
+let location2 = Location(latitude: 37.3230, longitude: -122.0322)
+
+let nowhere = Location()
+
+let location3 = Location(latitude: 37.3230, longitude: -122.0322, placeName:"Apple Head Quarter")
+print(location3.latitude)
+print(location3.longitude)
+print(location3.placeName)
+print(location3.planet)
