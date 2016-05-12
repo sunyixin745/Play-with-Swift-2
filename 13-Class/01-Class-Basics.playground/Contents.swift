@@ -9,6 +9,7 @@ class Person{
     
     // 如果没有初值，Class不提供默认的构造函数！
     init(firstName: String, lastName: String){
+        
         self.firstName = firstName
         self.lastName = lastName
     }
