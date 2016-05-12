@@ -16,6 +16,12 @@ struct Location{
         let commaIndex = coordinateString.rangeOfString(",")!.startIndex
         let firstElement = coordinateString.substringToIndex(commaIndex)
         let secondElement = coordinateString.substringFromIndex(commaIndex.successor())
+        
+        // 即使是let的量，若没有初始值，在初始化的过程中仍然可以复制
+        // 但如果初始化了一次以后，就不能再被赋值了
+        //latitude = 0
+        //longitude = 0
+        
         latitude = Double(firstElement)!
         longitude = Double(secondElement)!
         
