@@ -1,3 +1,9 @@
+---
+
+对swift感兴趣的同学，欢迎加我的个人微信：**liuyubobobo**（头像和github一致），一起加入swift微信群讨论：）请注明：**swift交流**
+
+--- 
+
 ##Play with Swift 2 - 玩儿转 Swift 2
 
 **Support the newest Xcode7.3 and Swift2.2! 现已支持Swift最新版本 Xcode7.3 Swift2.2!**
@@ -186,6 +192,7 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 ### **Season Three**
    
 * **Chapter Eleven: Enumeration** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/11-Enumeration)
+
    * 11-1 Why Enumeration [**Course Video**]
       * [Why Enumeration](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/01-Why-Enumeration.playground/Contents.swift)
    * 11-2 Enumeration Basics [**Course Video**]
@@ -360,6 +367,7 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 ###**第三季**
 
 * **第十一章: 枚举** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/11-Enumeration)
+
    * 11-1 为什么要使用枚举 [**课程视频**]
       * [为什么要使用枚举](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/01-Why-Enumeration.playground/Contents.swift)
    * 11-2 枚举语法基础 [**课程视频**]
