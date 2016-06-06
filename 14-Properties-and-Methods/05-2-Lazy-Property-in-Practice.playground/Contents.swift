@@ -2,7 +2,7 @@
 
 import UIKit
 
-// 懒加载非常多的情况
+// 延迟属性适用的情况非常多
 
 // Location
 class Location{

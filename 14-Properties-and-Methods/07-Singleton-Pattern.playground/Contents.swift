@@ -2,28 +2,14 @@
 
 import UIKit
 
-func playLevel1(){
-    let gameManager = GameManager.defaultManager
+//let gameManager = GameManager()
+//gameManager.addScore()
+//gameManager.score
 
-    for _ in 0..<20{
-        gameManager.addScore()
-    }
+let gameManager = GameManager.defaultManager
+gameManager.addScore()
+gameManager.score
 
-    gameManager.score
-    gameManager.level
-}
-
-func playLevel2(){
-    let gameManager = GameManager.defaultManager
-    
-    for _ in 0..<30{
-        gameManager.addScore()
-    }
-    
-    gameManager.score
-    gameManager.level
-}
-
-playLevel1()
-playLevel2()
-
+let gm = GameManager.defaultManager
+gm.addScore()
+gm.score

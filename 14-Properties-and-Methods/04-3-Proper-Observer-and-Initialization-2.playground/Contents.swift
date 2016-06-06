@@ -2,9 +2,8 @@
 
 import UIKit
 
-// 注意，didSet和willSet不会在初始化阶段调用的。
-// 因此，didSet和willSet对常量let没有意义，因为let只在初始化阶段赋值
 
+// 代码整理
 enum Theme{
     case DayMode
     case NightMode

@@ -2,7 +2,7 @@
 
 import UIKit
 
-class Range{
+class ClosedRange{
     
     let start: Int
     let end: Int
@@ -25,7 +25,7 @@ class Range{
     
     // 最佳方案，使用懒加载
     lazy var sum: Int = {
-        print("start computing sum value")
+        //print("start computing sum value")
         var res = 0
         for i in self.start...self.end{
             res += i
@@ -48,7 +48,7 @@ class Range{
 }
 
 
-if let range = Range(start: 0, end: 10_000){
+if let range = ClosedRange(start: 0, end: 10_000){
     range.width
     range.sum
     range.sum

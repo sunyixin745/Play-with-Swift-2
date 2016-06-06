@@ -12,8 +12,5 @@ public class GameManager{
     
     public func addScore(){
         score += 10
-        if score%100 == 0{
-            level += 1
-        }
     }
 }
