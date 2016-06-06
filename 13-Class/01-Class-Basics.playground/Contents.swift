@@ -35,4 +35,4 @@ class Person{
 let person1 = Person(firstName: "Alexander", lastName: "Hamilton")
 person1.fullName()
 
-let person2 = Person(fullName: "Steven Jobs")
+let person2 = Person(fullName: "Steve Jobs")

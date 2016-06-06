@@ -28,10 +28,10 @@ class Person{
 
 // 对于class,let也可以修改内部属性
 let person = Person(firstName: "Yubo", lastName: "Liu", career: "Developer")
-person.firstName = "Steven"
+person.firstName = "Steve"
 person.lastName = "Jobs"
 person.career = "CEO"
 
 // 对于class，let是指不能指向其他空间
-//person = Person(firstName: "Barack", lastName: "Obama", career: "US President")
+//person = Person(firstName: "Steve", lastName: "Jobs", career: "CEO")
 

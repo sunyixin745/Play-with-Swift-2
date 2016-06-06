@@ -1,5 +1,0 @@
-1 Use structures as Values and Classes as Things
-2 Reference Type vs Value Type
-3 Class can be inherited
-4 Structs are faster than Classes
-5 If your data never change, then use Struct. Classes are heavier, you can use Struct at first, when you need the added capabilities, then convert the struct to a class.

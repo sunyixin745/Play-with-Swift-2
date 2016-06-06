@@ -26,19 +26,16 @@ class Person{
 }
 
 
-// 对于class,let也可以修改内部属性
-let person = Person(firstName: "Steven", lastName: "Jobs", career: "CEO")
-let person2 = person
+let person1 = Person(firstName: "Steven", lastName: "Jobs", career: "CEO")
+let person2 = person1
 
 // Object identity
-//person == person2
-person === person2
+//person1 == person2
+person1 === person2
 
 
 let person3 = Person(firstName: "Steven", lastName: "Jobs", career: "CEO")
-person === person3
-person !== person3
+person1 === person3
+person1 !== person3
 
-
-// Heap & Stack
 
