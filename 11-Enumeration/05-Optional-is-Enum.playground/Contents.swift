@@ -40,9 +40,3 @@ else{
     print("No website")
 }
 
-
-// enum还有很多有意思的问题值得探讨，比如
-// · 在enum中声明方法；
-// · enum的associate value类型是自己，需要使用indirect
-// · 等等等等
-// 以后有机会再向大家介绍

@@ -3,7 +3,22 @@
 import UIKit
 
 
-// 定义raw value
+// 定义raw value，完全定义
+//enum Month: Int{
+//    case January = 1
+//    case February = 2
+//    case March = 3
+//    case April = 4
+//    case May = 5
+//    case June = 6
+//    case July = 7
+//    case August = 8
+//    case September = 9
+//    case October = 10
+//    case November = 11
+//    case December = 12
+//}
+
 enum Month: Int{
     case January = 1, Febuary = 2, March = 3, April = 4, May = 5, June = 6, July = 7, August = 8, September = 9, October = 10, November = 11, December = 12
 }
@@ -20,7 +35,7 @@ func monthsBeforeNewYear( month: Month ) -> Int{
 let curMonth = Month(rawValue: 4)
 
 if let theMonth = Month(rawValue: 8){
-    print("\(monthsBeforeNewYear(theMonth)) months before New YEar!")
+    print("\(monthsBeforeNewYear(theMonth)) months before New Year!")
 }
 
 
@@ -47,9 +62,8 @@ enum Coin: Int{
     case Quarter = 25
 }
 
-if let coin: Coin = .Quarter{
-    print("It's \(coin.rawValue) cents")
-}
+let coin: Coin = .Quarter
+print("It's \(coin.rawValue) cents")
 
 
 // 枚举类型的raw value不一定是Int

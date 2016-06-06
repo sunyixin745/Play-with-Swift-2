@@ -3,6 +3,7 @@
 import UIKit
 
 
+// 枚举递归，使用indirect关键字
 enum ArithmeticExpression{
     
     case Number(Int)

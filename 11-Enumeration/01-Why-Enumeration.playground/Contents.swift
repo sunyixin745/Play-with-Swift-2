@@ -23,6 +23,11 @@ if direction2 == "north"{
     print("It's north")
 }
 
+// 拼写习惯也不同
+if direction2 == "North"{
+    print("It's north")
+}
+
 // 也无法控制范围
 direction2 = "northeast"
 
@@ -46,6 +51,7 @@ let HONGKONG = 5
 // 无法控制范围
 direction3 = HONGKONG
 
+// 也无法控制语意
 let LEFT  = 1
 let RIGHT = 2
 let UP    = 3

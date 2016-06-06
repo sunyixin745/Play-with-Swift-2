@@ -3,7 +3,7 @@
 import UIKit
 
 
-// Associate Value 和 raw value 只能存在一个
+// Associate Value 和 Raw value 只能存在一个
 enum ATMStatus{
     case Success(Int)
     case Error(String)
@@ -25,13 +25,25 @@ func withdraw( amount: Int ) -> ATMStatus{
 }
 
 let result = withdraw(100)
+
+// 解包相应的 Associate Value
 switch result{
 case let .Success(newBalance):
     print("\(newBalance) Yuan left in your account.")
 case let .Error(errorMessage):
     print("Error: \(errorMessage)")
 case .Waiting:
-    print("waiting for processing")
+    print("Waiting for processing")
+}
+
+// 忽略相应的 Associate Value
+switch result{
+case .Success:
+    print("Success")
+case .Error:
+    print("Error")
+case .Waiting:
+    print("Waiting")
 }
 
 

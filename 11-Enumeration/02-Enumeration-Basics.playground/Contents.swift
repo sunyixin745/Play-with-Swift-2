@@ -4,8 +4,6 @@ import UIKit
 
 
 // 另外一个应该使用枚举的例子
-let months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
-
 func season( month: String ) -> String{
     
     switch month{
@@ -41,10 +39,9 @@ enum Month{
     case December
 }
 
-enum Month2{
-    case January, February, March, April, May, June, July, August, September, October, November, December
-}
 
+//let month: Month = Month.April
+let month = Month.April
 
 // 使用枚举类型
 func season( month: Month ) -> String{
@@ -61,8 +58,6 @@ func season( month: Month ) -> String{
     }
 }
 
-//let month = Month.April
-let month: Month = Month.April
 season(month)
 
 
@@ -78,9 +73,38 @@ func season2( month: Month ) -> String{
         return "Autumn"
     case .December, .January, .February:
         return "Winter"
+    //default不再需要
     }
 }
 
-//let month = Month.April
-let month2: Month = .April
-season2(month2)
+
+enum Season{
+    case Spring
+    case Summer
+    case Autumn
+    case Winter
+}
+
+enum Season2{
+    case Spring, Summer, Autumn, Winter
+}
+
+enum Month2{
+    case January, February, March, April, May, June, July, August, September, October, November, December
+}
+
+
+// 返回季节的枚举类型
+func season3( month: Month ) -> Season{
+    
+    switch month{
+    case .March, .April, .May:
+        return .Spring
+    case .June, .July, .August:
+        return .Summer
+    case .September, .October, .November:
+        return .Autumn
+    case .December, .January, .February:
+        return .Winter
+    }
+}

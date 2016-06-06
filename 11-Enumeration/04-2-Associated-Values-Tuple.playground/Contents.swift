@@ -3,7 +3,7 @@
 import UIKit
 
 
-// Associate Value 和 raw value 只能存在一个
+// Associate Value 可以是多个
 enum Shape{
     case Square(side: Double)
     case Rectangle(width: Double, height: Double)
