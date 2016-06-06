@@ -3,40 +3,36 @@
 import UIKit
 
 
-struct Point{
-    let x: Int
-    let y: Int
-}
-
-
 // enum也可以有方法
-enum Direction{
+enum Shape{
+    case Square(side: Double)
+    case Rectangle(width: Double, height: Double)
+    case Circle(centerx: Double, centery: Double, radius: Double)
+    case Point
     
-    case North
-    case South
-    case East
-    case West
-    
-    func goFrom(point: Point) -> Point{
+    func area() -> Double{
         
-        switch self{
-        case .North:
-            return Point(x: point.x-1, y: point.y)
-        case .South:
-            return Point(x: point.x+1, y: point.y)
-        case .East :
-            return Point(x: point.x, y: point.y+1)
-        case .West :
-            return Point(x: point.x, y: point.y-1)
+        switch self {
+        case let .Square(side):
+            return side*side
+        case let .Rectangle( width , height ):
+            return width * height
+        case let .Circle( _ , _ , r ):
+            return M_PI*r*r
+        case .Point:
+            return 0
         }
     }
 }
 
 
-let location = Point(x: 0, y: 0)
-let direction:Direction = .East
-direction.goFrom(location)
+let square = Shape.Square(side: 10)
+let rectangle = Shape.Rectangle(width: 20, height: 30)
+let circle = Shape.Circle(centerx: 0, centery: 0, radius: 15)
+let point = Shape.Point
 
-
-
+square.area()
+rectangle.area()
+circle.area()
+point.area()
 

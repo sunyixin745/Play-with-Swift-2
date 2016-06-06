@@ -53,3 +53,8 @@ let location3 = Location(coordinateString: "37.3230&-122.0322")
 let location4 = Location(coordinateString: "apple,-122.0322")
 let location5 = Location(coordinateString: "37.3230,apple")
 let location6 = Location(coordinateString: "Hello, World!")
+
+
+// 回忆一下，我们之前也曾使用过Failable Initializer
+let a = Int("2")
+let b = Int("liuyubobobo")

@@ -33,9 +33,6 @@ struct Location{
     
     func printLocation(){
         print("The Location is \(self.latitude),\(self.longitude)")
-        if let placeName = self.placeName{
-            print(placeName)
-        }
     }
     
     func isNorth() -> Bool{
@@ -43,7 +40,6 @@ struct Location{
     }
     
     func isSouth() -> Bool{
-        //可以调用自己的函数，也可以加上self
         return !self.isNorth()
     }
     
@@ -57,9 +53,11 @@ struct Location{
 }
 
 
-let appleHeadQuarterLocation = Location(latitude: 37.3230, longitude: -122.0322, placeName:"Apple Head Quarter")
+let appleHeadQuarterLocation = Location(latitude: 37.3230, longitude: -122.0322)
 appleHeadQuarterLocation.printLocation()
 appleHeadQuarterLocation.isNorth()
 appleHeadQuarterLocation.isSouth()
 
+let googleHeadQuarterLocation = Location(latitude: 37.4220, longitude: -122.0841)
+appleHeadQuarterLocation.distanceTo(googleHeadQuarterLocation)
 

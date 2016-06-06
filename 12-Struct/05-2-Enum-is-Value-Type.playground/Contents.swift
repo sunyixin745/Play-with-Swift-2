@@ -14,8 +14,8 @@ var d2 = d1
 
 d2 = Direction.South
 
-print(d2)
-print(d1)
+d2
+d1
 
 
 enum Shape{
@@ -28,6 +28,6 @@ var square1 = Shape.Square(side: 2.0)
 var square2 = square1
 
 square2 = Shape.Square(side: 5.0)
-print(square2)
-print(square1)
+square2
+square1
 

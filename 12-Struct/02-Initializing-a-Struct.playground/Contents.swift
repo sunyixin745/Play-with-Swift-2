@@ -85,3 +85,11 @@ print(location3.latitude)
 print(location3.longitude)
 print(location3.placeName)
 print(location3.planet)
+
+
+// 回忆一下，我们之前使用过很多次构造函数：）
+let a = Set<Int>()
+let b = Int()
+let c = Int(1.2)
+let d = [Int](count:3, repeatedValue:0)
+
