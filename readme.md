@@ -205,7 +205,7 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
       * [Associate Value Basics](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/04-1-Associated-Values.playground/Contents.swift)
       * [Use Tuple as Associate Values](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/04-2-Associated-Values-Tuple.playground/Contents.swift)
    * 11-6 Optional Type is Actually Enumeration [**Course Video**](http://t.imooc.com/video/11894)
-      * [Optional Type is Enumeration](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/06-Optional-is-Enum.playground/Contents.swift)
+      * [Optional Type is Enumeration](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/05-Optional-is-Enum.playground/Contents.swift)
    * 11-7 Recursion in Optional Type [**Course Video**](http://t.imooc.com/video/11895)
       * [Recursion in Optional Type](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/06-Recursive-Enumeration.playground/Contents.swift)
       
@@ -380,6 +380,6 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
       * [Associate Value Basics](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/04-1-Associated-Values.playground/Contents.swift)
       * [Use Tuple as Associate Values](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/04-2-Associated-Values-Tuple.playground/Contents.swift)
    * 11-6 可选型实际是枚举类型 [**课程视频**](http://t.imooc.com/video/11894)
-      * [Optional Type is Enumeration](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/06-Optional-is-Enum.playground/Contents.swift)
+      * [Optional Type is Enumeration](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/05-Optional-is-Enum.playground/Contents.swift)
    * 11-7 枚举递归 [**课程视频**](http://t.imooc.com/video/11895)
       * [Recursion in Optional Type](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/11-Enumeration/06-Recursive-Enumeration.playground/Contents.swift)
