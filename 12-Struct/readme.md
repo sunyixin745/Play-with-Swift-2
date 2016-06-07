@@ -13,11 +13,11 @@
    * 12-4 Methods in Structure and Enumeration Type [**Course Video**](http://t.imooc.com/video/11901)
       * [Methods in Structure](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/12-Struct/04-1-Methods-in-Struct.playground/Contents.swift)
       * [Methods in Enumeration Type](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/12-Struct/04-2-Methods-in-Enum.playground/Contents.swift)
-   * 12-5 Structure and Enumeration Type are a Value Type [**Course Video**](http://t.imooc.com/video/11902)
-      * [Structure is a Value Type](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/12-Struct/05-1-Struct-is-Value-Type.playground/Contents.swift)
-      * [Enumeration Type is a Value Type](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/12-Struct/05-2-Enum-is-Value-Type.playground/Contents.swift)
-   * 12-6 Structure is Everywhere in Swift [**Course Video**](http://t.imooc.com/video/11903)
-      * [Structure is Everywhere in Swift](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/12-Struct/06-Struct-is-Everywhere-in-Swift.playground)
+   * 12-5 Structures and Enumerations are Value Type [**Course Video**](http://t.imooc.com/video/11902)
+      * [Structures are Value Type](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/12-Struct/05-1-Struct-is-Value-Type.playground/Contents.swift)
+      * [Enumerations are Value Type](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/12-Struct/05-2-Enum-is-Value-Type.playground/Contents.swift)
+   * 12-6 Structures are Everywhere in Swift [**Course Video**](http://t.imooc.com/video/11903)
+      * [Structures are Everywhere in Swift](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/12-Struct/06-Struct-is-Everywhere-in-Swift.playground)
 
 ---
 
