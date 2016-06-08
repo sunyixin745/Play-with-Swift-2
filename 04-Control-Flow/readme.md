@@ -5,6 +5,7 @@
    * 4-1 Loop - ``for-in`` and ``for`` [**Course Video**](http://t.imooc.com/video/11402)
       * [01-1 for-in](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/01-1-Loop-for-in.playground/Contents.swift) 
       * [01-2 for](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/01-2-Loop-for.playground/Contents.swift)
+      * [01-3 C style for in Swift3](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/01-3-Loop-for-in-Swift3.playground/Contents.swift)
    * 4-2 Loop - ``while`` and ``repeat`` [**Course Video**](http://t.imooc.com/video/11403)
       * [02-1 while](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/02-1-Loop-while.playground/Contents.swift)
       * [02-2 repeat](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/02-2-Loop-repeat.playground/Contents.swift)

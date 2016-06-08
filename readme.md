@@ -34,7 +34,7 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 
 ##Catalogue - 课程目录 
 
-(中文版课程目录见英文版目录后)
+中文版课程目录在英文版目录后，直接[点击这里](https://github.com/liuyubobobo/Play-with-Swift-2#第一季)查看中文目录
 
 ### **Season One**
 * **Chapter One - Introduction** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/01-Introduction)
@@ -79,6 +79,7 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
    * 4-1 Loop - ``for-in`` and ``for`` [**Course Video**](http://t.imooc.com/video/11402)
       * [01-1 for-in](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/01-1-Loop-for-in.playground/Contents.swift) 
       * [01-2 for](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/01-2-Loop-for.playground/Contents.swift)
+      * [01-3 C style for in Swift3](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/01-3-Loop-for-in-Swift3.playground/Contents.swift)
    * 4-2 Loop - ``while`` and ``repeat`` [**Course Video**](http://t.imooc.com/video/11403)
       * [02-1 while](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/02-1-Loop-while.playground/Contents.swift)
       * [02-2 repeat](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/04-Control-Flow/02-2-Loop-repeat.playground/Contents.swift)
