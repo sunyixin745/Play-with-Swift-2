@@ -5,6 +5,9 @@ import UIKit
 var arr = [0,1,2,3]
 arr[1]
 
+var dict = ["北京":"Beijing", "纽约":"New York", "巴黎":"Paris"]
+dict["北京"]
+
 
 struct Vector3{
     
@@ -61,9 +64,12 @@ struct Vector3{
 
 var v = Vector3(x: 1.0, y: 2.0, z: 3.0)
 v.x
-v[1]
+v[0]
+v[100]
+
 v["z"]
-v["Z"]
+v["Y"]
+v["Hello"]
 
 v[0] = 100.0
 v

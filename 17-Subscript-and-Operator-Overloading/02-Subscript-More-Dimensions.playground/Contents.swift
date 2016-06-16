@@ -31,6 +31,20 @@ struct Matrix{
             data[x][y] = newValue
         }
     }
+    
+    // 如果想使用 m[1][1]
+    subscript(row: Int) -> [Double]{
+        
+        get{
+            assert( row >= 0 && row < r , "Index Out of Range")
+            return data[row]
+        }
+        
+        set(vector){
+            assert( vector.count == c , "Column Number does NOT match")
+            data[row] = vector
+        }
+    }
 }
 
 var m = Matrix(row: 2, col: 2)
@@ -38,50 +52,19 @@ var m = Matrix(row: 2, col: 2)
 m[1,1]
 
 
-// 注意区分,不是m[1][1]
-struct Room{
-    let info: String
-}
+// 如果想使用 m[1][1]
+m[1][1]
+m[1]
 
-struct Floor{
-    let level: Int
-    var rooms: [Room]
-    
-    subscript(index: Int) -> Room{
-        assert( index >= 1 && index <= rooms.count , "Room Index Out of Range")
-        return rooms[index-1]
-    }
-}
-
-class Building{
-    let levelNumber: Int
-    var floors: [Floor]
-    
-    init(levelNumber: Int, roomNumber: Int){
-        self.levelNumber = levelNumber
-        floors = [Floor]()
-        for l in 1...levelNumber{
-            var floor = Floor(level: l, rooms: [])
-            for _ in 1...roomNumber{
-                let roomInfo = String(random())
-                let room = Room(info: roomInfo)
-                floor.rooms.append(room)
-            }
-            floors.append(floor)
-        }
-    }
-    
-    subscript(index:Int) -> Floor{
-        assert( index >= 1 && index <= levelNumber , "Floor Index Out of Range")
-        return floors[index-1]
-    }
-}
-
-let building = Building(levelNumber: 10, roomNumber: 20)
-building[3][7].info
+m[0] = [1.5,4.5]
+m[0][0]
+m[0][1]
 
 
-// 重载[]，
+// 更多关于assert，留在错误处理进行讲解
+
+
+// 对于下标的使用
 // 实现魔方
 // 实现数据结构，如链表
 // 实现数据Table，等等等等
