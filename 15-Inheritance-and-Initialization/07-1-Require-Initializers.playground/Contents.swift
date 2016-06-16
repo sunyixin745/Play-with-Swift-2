@@ -44,12 +44,10 @@ class User: Avatar{
     var group: String
     
     init( name: String , group: String){
-        
-        // 构造初值
+
         self.group = group
         super.init(name: name)
-        
-        // 进一步完善
+
         if group == ""{
             self.getScore(-10)
         }

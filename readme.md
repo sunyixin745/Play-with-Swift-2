@@ -511,5 +511,5 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
       * [重载](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/15-Inheritance-and-Initialization/03-Override.playground/Contents.swift)
    * 15-4 两段式构造 [**课程视频**](http://t.imooc.com/video/11926)
       * [两段式构造](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/15-Inheritance-and-Initialization/04-Two-Phase-Initialization.playground/Contents.swift)
-   * 15-5 遍历构造函数与指定构造函数 [**课程视频**](http://t.imooc.com/video/11927)
-      * [遍历构造函数与指定构造函数](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/15-Inheritance-and-Initialization/05-Convenient-and-Designated-Initializer.playground/Contents.swift)
+   * 15-5 便利构造函数与指定构造函数 [**课程视频**](http://t.imooc.com/video/11927)
+      * [便利构造函数与指定构造函数](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/15-Inheritance-and-Initialization/05-Convenient-and-Designated-Initializer.playground/Contents.swift)
