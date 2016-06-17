@@ -72,8 +72,11 @@ func * (left: Vector3, right: Vector3) -> Double{
 }
 
 func * (left: Vector3, a: Double) -> Vector3{
-    
     return Vector3(x: left.x * a, y: left.y * a, z: left.z * a)
+}
+
+func += (inout left: Vector3, right: Vector3){
+    left = left + right
 }
 
 
@@ -81,15 +84,38 @@ func * (left: Vector3, a: Double) -> Vector3{
 
 // https://developer.apple.com/library/ios/documentation/Swift/Reference/Swift_StandardLibrary_Operators/index.html#//apple_ref/doc/uid/TP40016054
 
-infix operator ⦞ {associativity left precedence 140}
-func ⦞ (left: Vector3, right: Vector3) -> Double{
+
+postfix operator +++ {}
+postfix func +++ (inout vector: Vector3) -> Vector3{
+    
+    vector += Vector3(x: 1.0, y: 1.0, z: 1.0)
+    return vector
+}
+
+
+prefix operator +++ {}
+prefix func +++ (inout vector: Vector3) -> Vector3{
+    
+    let ret = vector
+    vector += Vector3(x: 1.0, y: 1.0, z: 1.0)
+    return ret
+}
+
+
+infix operator ^ {}
+//infix operator ^ {associativity left precedence 140}
+func ^ (left: Vector3, right: Vector3) -> Double{
     
     return acos( ( left * right ) / (left.length() * right.length()) )
 }
 
 let va = Vector3(x: 1.0, y: 2.0, z: 3.0)
 let vb = Vector3(x: 4.0, y: 5.0, z: 6.0)
-va ⦞ vb
+va ^ vb
+
+
+// 关于precedence
+// https://developer.apple.com/library/mac/documentation/Swift/Reference/Swift_StandardLibrary_Operators/index.html#//apple_ref/doc/uid/TP40016054
 
 
 infix operator **{associativity right precedence 155}
@@ -98,7 +124,6 @@ func **(x: Double, p:Double) -> Double{
 }
 
 2**3
-
 2**3**2
-
+1+2**3**2
 5*2**3**2

@@ -101,3 +101,6 @@ func >=(left: Vector3, right: Vector3) -> Bool{
     return !(left < right)
 }
 
+
+let a = [2,3,1,5]
+a.sort(>)
