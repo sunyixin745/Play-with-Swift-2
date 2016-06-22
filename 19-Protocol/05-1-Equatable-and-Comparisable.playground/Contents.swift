@@ -19,16 +19,6 @@ func <(left: Record, right: Record) -> Bool{
     }
     return left.losses > right.losses
 }
-func <=(left: Record, right: Record) -> Bool{
-    return left < right || left == right
-}
-func >(left: Record, right: Record) -> Bool{
-    return !(left <= right)
-}
-func >=(left: Record, right: Record) -> Bool{
-    return !(left < right)
-}
-
 
 let recordA = Record(wins: 10, losses: 5)
 let recordB = Record(wins: 10, losses: 5)

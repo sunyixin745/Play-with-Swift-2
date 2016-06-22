@@ -71,8 +71,8 @@ class Bird: Animal{
 
 // 如果只是继承Bird，Bird的init为required，则override可以省略
 // 否则，必须有override, 可以没有required
-// 因为有Pet，则equired也不能省
-class parrot: Bird, Pet{
+// 因为有Pet，则required也不能省
+class Parrot: Bird, Pet{
     
     required override init(name: String){
         super.init( name: name + " " + name )

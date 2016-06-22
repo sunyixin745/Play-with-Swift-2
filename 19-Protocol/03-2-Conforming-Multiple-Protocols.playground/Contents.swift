@@ -87,6 +87,3 @@ for flyer in flyers{
     print("Fly speed: " , flyer.flySpeed , "Fly Height: " , flyer.flyHeight)
 }
 
-
-// Multiple Conforming
-// Can be conformed by class, struct and enum!

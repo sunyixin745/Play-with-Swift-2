@@ -10,14 +10,13 @@ struct Record: Equatable, Comparable, CustomStringConvertible, BooleanType{
     var losses: Int
     
     var description: String{
-        return "Wins: " + String(wins) + " , Losses: " + String(losses)
+        return "WINS: " + String(wins) + " , LOSSES: " + String(losses)
     }
     
     var boolValue: Bool{
         return wins > losses
     }
 }
-// 必须紧跟着写
 func ==(left: Record, right: Record) -> Bool{
     return left.wins == right.wins && left.losses == right.losses
 }
@@ -26,15 +25,6 @@ func <(left: Record, right: Record) -> Bool{
         return left.wins < right.wins
     }
     return left.losses > right.losses
-}
-func <=(left: Record, right: Record) -> Bool{
-    return left < right || left == right
-}
-func >(left: Record, right: Record) -> Bool{
-    return !(left <= right)
-}
-func >=(left: Record, right: Record) -> Bool{
-    return !(left < right)
 }
 
 
@@ -47,7 +37,8 @@ if record{
 }
 
 
-//
+// 可以在extension中实现协议！
+// 局限：不能使用存储型变量
 extension Int: BooleanType{
     public var boolValue: Bool{
         return self != 0
@@ -59,3 +50,5 @@ if !wins{
     print("You never win!")
 }
 
+
+// extension of protocol? See you next Chapter!

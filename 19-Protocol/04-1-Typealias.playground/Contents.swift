@@ -2,21 +2,20 @@
 
 import UIKit
 
+typealias Length = Double
 
 extension Double{
     
-    var km: Double{ return self * 1000.0 }
-    var m: Double{ return self }
-    var cm: Double{ return self / 100 }
-    var ft: Double{ return self / 3.28084 }
+    var km: Length{ return self * 1000.0 }
+    var m: Length{ return self }
+    var cm: Length{ return self / 100 }
+    var ft: Length{ return self / 3.28084 }
 }
-
-typealias Length = Double
 
 let runningDistance: Length = 3.54.km
 runningDistance
 
 
-typealias AudioSample = UInt16
+typealias AudioSample = UInt64
 
 

@@ -43,16 +43,16 @@ protocol PetBird: Pet{
 struct Dog: Pet{
     
     // 可以使用计算型属性
-    //var name: String
-    private var myDoggyName = "Puppy"
-    var name: String{
-        get{
-            return myDoggyName
-        }
-        set{
-            myDoggyName = newValue
-        }
-    }
+//    private var myDoggyName = "Puppy"
+//    var name: String{
+//        get{
+//            return myDoggyName
+//        }
+//        set{
+//            myDoggyName = newValue
+//        }
+//    }
+    var name: String
     
     // protocol的read-only，对一个具体类的实现，不一定只读，但是作为Pet是只读的！
     //let birthPlace: String
@@ -80,12 +80,12 @@ struct Dog: Pet{
     
     // 对于class，不需要mutating关键字
     mutating func changeName(newName: String) {
-        myDoggyName = "Puppy " + newName
+        name = newName
     }
 }
 
 
-let myDog:Dog = Dog(myDoggyName: "summer", birthPlace: "beijing")
+let myDog:Dog = Dog(name: "summer", birthPlace: "beijing")
 
 // 从Pet的角度看，myDog的birthPlace是只读的！
 let aPet: Pet = myDog

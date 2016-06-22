@@ -18,7 +18,7 @@ class iPhone7: WeightCalculable{
     typealias WeightType = Double
     
     var weight: WeightType{
-        return 0.715
+        return 0.114
     }
 }
 
@@ -34,9 +34,10 @@ class Ship: WeightCalculable{
 }
 
 extension Int{
-    var t: Int{return 1_000*self}
+    typealias Weight = Int
+    var t: Weight{return 1_000*self}
 }
 
-let titanic = Ship(weight: 46_328.t)
+let titanic = Ship(weight: 46_328_000)
 
 
