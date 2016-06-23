@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    var tableView: UITableView!
+    var tableView: UITableView = UITableView()
     
     override func viewDidLoad() {
         

@@ -3,11 +3,14 @@
 import UIKit
 
 
-protocol TurnBasedGameDelegate{
+@objc protocol TurnBasedGameDelegate{
     
     func gameStart()
     func playerMove()
     func gameEnd()
+    
+    optional func turnStart()
+    optional func turnEnd()
 
     func gameOver() -> Bool
 }
@@ -19,7 +22,7 @@ protocol TurnBasedGame{
     func play()
 }
 
-class SinglePlayerTurnBasedGame: TurnBasedGame{
+class SinglePlayerTurnBasedGame: NSObject, TurnBasedGame{
     
     var delegate:TurnBasedGameDelegate!
     var turn = 0
@@ -28,51 +31,22 @@ class SinglePlayerTurnBasedGame: TurnBasedGame{
         
         delegate.gameStart()
         while !delegate.gameOver() {
-            print("ROUND",turn,":")
+            if let turnStart = delegate.turnStart{
+                turnStart()
+            }
+            else{
+                print("Round",turn,":")
+            }
+            
             delegate.playerMove()
+            
+            delegate.turnEnd?()
+            
             turn += 1
         }
         delegate.gameEnd()
     }
 }
-
-class RollNumberGame: SinglePlayerTurnBasedGame, TurnBasedGameDelegate{
-    
-    var score = 0
-    
-    override init() {
-        super.init()
-        delegate = self
-    }
-    
-    func gameStart() {
-        
-        score = 0
-        turn = 0
-        
-        print("Welcome to Roll Number Game.")
-        print("Try to use least turn to make total 100 scores!")
-    }
-    
-    func playerMove() {
-        let rollNumber = Int(arc4random())%6 + 1
-        score += rollNumber
-        print("You rolled a" , rollNumber , "! The score is",score,"now!")
-    }
-    
-    func gameEnd() {
-        print("Congratulation! You win the game in" , turn , "ROUND!")
-    }
-    
-    func gameOver() -> Bool{
-        return score >= 30
-    }
-}
-
-
-let rollingNumber = RollNumberGame()
-rollingNumber.play()
-
 
 
 class RockPaperScissors: SinglePlayerTurnBasedGame, TurnBasedGameDelegate{
@@ -108,14 +82,13 @@ class RockPaperScissors: SinglePlayerTurnBasedGame, TurnBasedGameDelegate{
         return Shape(rawValue: Int(arc4random())%3)!
     }
     
-    func gameStart() {
+    @objc func gameStart() {
         wins = 0
         otherWins = 0
         print("== Rock Paper Scissor ==")
     }
     
     func gameOver() -> Bool {
-        //return turn >= 3
         return wins >= 2 || otherWins >= 2
     }
     
@@ -146,6 +119,14 @@ class RockPaperScissors: SinglePlayerTurnBasedGame, TurnBasedGameDelegate{
         else{
             print("Tie in this round")
         }
+    }
+    
+    func turnStart() {
+        print("*** ROUND START ***")
+    }
+    
+    func turnEnd(){
+        print("*******************")
     }
 
 }
