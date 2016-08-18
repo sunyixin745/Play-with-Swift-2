@@ -694,3 +694,17 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
       * [错误处理](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/03-Error-Handling.playground/Contents.swift)
    * 21-4 ``defer`` [**Course Video**](http://t.imooc.com/video/12077)
       * [``defer``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/04-defer.playground/Contents.swift)
+
+---
+
+## Contributors and Acknowledgements 贡献者.致谢
+
+感谢每一名学习这个课程的同学。感谢每一名在慕课网留言的同学。批评也好，鼓励也罢，都是对我的肯定：）
+
+特别感谢以下github用户，帮助完善了这个课程的代码：
+
+* [leavie](https://github.com/leavie)
+
+最后，感谢这个时代。
+
+---
