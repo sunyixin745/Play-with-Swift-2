@@ -1,6 +1,6 @@
 ##Catalogue - 本章目录
 
-**Chapter Nineteen: Protocol** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/19-Protocol)
+**Chapter Nineteen: Protocol**
 
 * 19-1 Protocol Basics [**Course Video**](http://t.imooc.com/video/12061)
     * [Protocol Basics](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/01-Protocol-Basics.playground/Contents.swift)

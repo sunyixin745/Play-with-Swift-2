@@ -1,6 +1,6 @@
 ##Catalogue - 本章目录
 
-**Chapter Eighteen: Extension and Generic** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/18-Extension-Generic)
+**Chapter Eighteen: Extension and Generic**
 
 * 18-1 Extension Basics [**Course Video**](http://t.imooc.com/video/12056)
     * [Extension Basics](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/18-Extension-Generic/01-Extension-Basics.playground/Contents.swift)
@@ -16,7 +16,7 @@
 
 ---
 
-**第十八章: 扩展和泛型** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/18-Extension-Generic)
+**第十八章: 扩展和泛型**
 
 * 18-1 扩展基础 [**课程视频**](http://t.imooc.com/video/12056)
     * [扩展基础](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/18-Extension-Generic/01-Extension-Basics.playground/Contents.swift)
