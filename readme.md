@@ -288,7 +288,25 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 
 ---
 
+### **Season Four**
+   
+* **Chapter Seventeen: Subscript and Operator Overloading** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/17-Subscript-and-Operator-Overloading)
+
+   * 17-1 Subscript Basics [**Course Video**](http://t.imooc.com/video/12051)
+   		* [Subscript Basics](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/17-Subscript-and-Operator-Overloading/01-Subscript-Basics.playground/Contents.swift)
+   * 17-2 Subscript with More Dimensions [**Course Video**](http://t.imooc.com/video/12052)
+      * [Subscript with More Dimensions](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/17-Subscript-and-Operator-Overloading/02-Subscript-More-Dimensions.playground/Contents.swift)
+   * 17-3 Operator Overloading Basics [**Course Video**](http://t.imooc.com/video/12053)
+      * [Operator Overloading Basics](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/17-Subscript-and-Operator-Overloading/03-Operatore-Overloading-Basics.playground/Contents.swift)
+   * 17-4 Overloading Comparison Operator [**Course Video**](http://t.imooc.com/video/12054)
+      * [Overloading Comparison Operator](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/17-Subscript-and-Operator-Overloading/04-Overloading-Comparison-Operator.playground/Contents.swift)
+   * 17-5 Custome Operator [**Course Video**](http://t.imooc.com/video/12055)
+      * [Custome Operator](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/17-Subscript-and-Operator-Overloading/05-Custom-Operatore.playground/Contents.swift)
+
+---
+
 ###**第一季**
+
 * **第一章：玩儿转 Swift 2** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/01-Introduction)
    * 1-1 让我们一起玩儿转Swift [**课程视频**](http://t.imooc.com/video/11387)
    * 1-2 Swift语言和iOS开发 [**课程视频**](http://t.imooc.com/video/11388)
@@ -537,3 +555,20 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
       * [文档注释中的元信息](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/16-Documentation/03-2-Meta-Information-in-Documentation.playground/Contents.swift)
    * 16-4 MARK, TODO 和 FIXME [**课程视频**](http://t.imooc.com/video/12031)
       * [MARK, TODO 和 FIXME](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/16-Documentation/04-MARK-TODO-FIXME.playground/Contents.swift)
+
+---
+
+### **第四季**
+   
+* **第十七章: 下标和运算符重载** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/17-Subscript-and-Operator-Overloading)
+
+   * 17-1 下标基础 [**课程视频**](http://t.imooc.com/video/12051)
+   		* [下标基础](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/17-Subscript-and-Operator-Overloading/01-Subscript-Basics.playground/Contents.swift)
+   * 17-2 多维下标 [**课程视频**](http://t.imooc.com/video/12052)
+      * [多维下标](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/17-Subscript-and-Operator-Overloading/02-Subscript-More-Dimensions.playground/Contents.swift)
+   * 17-3 运算符重载基础 [**课程视频**](http://t.imooc.com/video/12053)
+      * [运算符重载基础](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/17-Subscript-and-Operator-Overloading/03-Operatore-Overloading-Basics.playground/Contents.swift)
+   * 17-4 重载比较运算符 [**课程视频**](http://t.imooc.com/video/12054)
+      * [重载比较运算符](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/17-Subscript-and-Operator-Overloading/04-Overloading-Comparison-Operator.playground/Contents.swift)
+   * 17-5 自定义运算符 [**课程视频**](http://t.imooc.com/video/12055)
+      * [自定义运算符](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/17-Subscript-and-Operator-Overloading/05-Custom-Operatore.playground/Contents.swift)
