@@ -274,6 +274,18 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
    * 15-5 Convenience Initializer and Designated Initializer [**Course Video**](http://t.imooc.com/video/11927)
       * [Convenience Initializer and Designated Initializer](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/15-Inheritance-and-Initialization/05-Convenient-and-Designated-Initializer.playground/Contents.swift)
 
+* **Chapter Sixteen: Documentation** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/16-Documentation)
+
+   * 16-1 Markdown Basics [**Course Video**](http://t.imooc.com/video/12028)
+      * [Markdown Basics](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/16-Documentation/01-Markdown-Basics.playground/Contents.swift)
+   * 16-2 Parameters, Returns and Throws in Documentation [**Course Video**](http://t.imooc.com/video/12029)
+      * [Parameters, Returns and Throws in Documentation](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/16-Documentation/02-Parameters-Returns-and-Throws-in-documentation.playground/Contents.swift)
+   * 16-3 More Documentation Keywords [**Course Video**](http://t.imooc.com/video/12030)
+      * [Algorithm Related Keywords in Documentation](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/16-Documentation/03-1-Algorithm-Related-Keywords-in-documentation.playground/Contents.swift)
+      * [Meta Information in Documentation](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/16-Documentation/03-2-Meta-Information-in-Documentation.playground/Contents.swift)
+   * 16-4 MARK, TODO and FIXME [**Course Video**](http://t.imooc.com/video/12031)
+      * [MARK, TODO and FIXME](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/16-Documentation/04-MARK-TODO-FIXME.playground/Contents.swift)
+
 ---
 
 ###**第一季**
@@ -513,3 +525,15 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
       * [两段式构造](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/15-Inheritance-and-Initialization/04-Two-Phase-Initialization.playground/Contents.swift)
    * 15-5 便利构造函数与指定构造函数 [**课程视频**](http://t.imooc.com/video/11927)
       * [便利构造函数与指定构造函数](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/15-Inheritance-and-Initialization/05-Convenient-and-Designated-Initializer.playground/Contents.swift)
+
+* **第十六章: 文档注释** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/16-Documentation)
+
+   * 16-1 Markdown基础 [**课程视频**](http://t.imooc.com/video/12028)
+      * [Markdown基础](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/16-Documentation/01-Markdown-Basics.playground/Contents.swift)
+   * 16-2 在文档中使用 Parameters, Returns 和 Throws 关键字 [**课程视频**](http://t.imooc.com/video/12029)
+      * [在文档中使用 Parameters, Returns 和 Throws 关键字](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/16-Documentation/02-Parameters-Returns-and-Throws-in-documentation.playground/Contents.swift)
+   * 16-3 更多文档关键字 [**课程视频**](http://t.imooc.com/video/12030)
+      * [算法相关关键字](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/16-Documentation/03-1-Algorithm-Related-Keywords-in-documentation.playground/Contents.swift)
+      * [文档注释中的元信息](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/16-Documentation/03-2-Meta-Information-in-Documentation.playground/Contents.swift)
+   * 16-4 MARK, TODO 和 FIXME [**课程视频**](http://t.imooc.com/video/12031)
+      * [MARK, TODO 和 FIXME](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/16-Documentation/04-MARK-TODO-FIXME.playground/Contents.swift)
