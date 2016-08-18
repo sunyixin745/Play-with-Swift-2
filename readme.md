@@ -317,6 +317,22 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
    * 18-5 Generic Types [**Course Video**](http://t.imooc.com/video/12060)
       * [Generic Types](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/18-Extension-Generic/05-Generic-Type.playground/Contents.swift)
 
+* **Chapter Nineteen: Protocol** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/19-Protocol)
+
+   * 19-1 Protocol Basics [**Course Video**](http://t.imooc.com/video/12061)
+   		* [Protocol Basics](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/01-Protocol-Basics.playground/Contents.swift)
+   * 19-2 Protocol and Initializers [**Course Video**](http://t.imooc.com/video/12062)
+      * [Protocol and Initializers](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/02-Protocol-and-Initializaers.playground/Contents.swift)
+   * 19-3 Why Protocols [**Course Video**](http://t.imooc.com/video/12063)
+      * [The Problems of Class](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/03-1-The-Problems-of-Class.playground/Contents.swift)
+      * [Conforming Mutiple Protocols](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/03-2-Conforming-Multiple-Protocols.playground/Contents.swift)
+   * 19-4 ``typealias`` and ``associatetype`` [**Course Video**](http://t.imooc.com/video/12064)
+      * [``typealias``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/04-1-Typealias.playground/Contents.swift)
+      * [``typealias`` in Protocols](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/04-2-Typealias-in-Protocol.playground/Contents.swift)
+   * 19-5 Useful Protocols in Standard Library [**Course Video**](http://t.imooc.com/video/12065)
+      * [``Equatable`` and ``Comparisable``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/05-1-Equatable-and-Comparisable.playground/Contents.swift)
+      * [Other Protocols in Standard Library](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/05-2-Other-Protocol-in-Standard-Library.playground/Contents.swift)
+
 ---
 
 ###**第一季**
@@ -600,3 +616,19 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
       * [泛型函数](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/18-Extension-Generic/04-Generic-Function.playground/Contents.swift)
    * 18-5 泛型类型 [**课程视频**](http://t.imooc.com/video/12060)
       * [泛型类型](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/18-Extension-Generic/05-Generic-Type.playground/Contents.swift)
+
+* **第十九章: 协议** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/19-Protocol)
+
+   * 19-1 协议基础 [**Course Video**](http://t.imooc.com/video/12061)
+   		* [协议基础](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/01-Protocol-Basics.playground/Contents.swift)
+   * 19-2 协议和构造函数 [**Course Video**](http://t.imooc.com/video/12062)
+      * [协议和构造函数](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/02-Protocol-and-Initializaers.playground/Contents.swift)
+   * 19-3 为什么使用协议？ [**Course Video**](http://t.imooc.com/video/12063)
+      * [使用类的问题](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/03-1-The-Problems-of-Class.playground/Contents.swift)
+      * [遵守多个协议](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/03-2-Conforming-Multiple-Protocols.playground/Contents.swift)
+   * 19-4 ``typealias`` 和 ``associatetype`` [**Course Video**](http://t.imooc.com/video/12064)
+      * [``typealias``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/04-1-Typealias.playground/Contents.swift)
+      * [在协议中使用 ``typealias``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/04-2-Typealias-in-Protocol.playground/Contents.swift)
+   * 19-5 标准库中的常用协议 [**Course Video**](http://t.imooc.com/video/12065)
+      * [``Equatable`` 和 ``Comparisable``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/05-1-Equatable-and-Comparisable.playground/Contents.swift)
+      * [其他标准库中的常用协议](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/19-Protocol/05-2-Other-Protocol-in-Standard-Library.playground/Contents.swift)
