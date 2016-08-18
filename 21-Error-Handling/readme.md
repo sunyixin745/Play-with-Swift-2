@@ -14,7 +14,7 @@
 
 ---
 
-**第二十一章: 面向协议的编程**
+**第二十一章: 错误处理**
 
 * 21-1 强制退出程序 [**Course Video**](http://t.imooc.com/video/12074)
     * [强制退出程序](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/01-1-Exit-the-Program-Forcfully.playground/Contents.swift)

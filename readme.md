@@ -683,7 +683,7 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
    * 20-8 可选的协议方法 [**课程视频**](http://t.imooc.com/video/12073)
       * [可选的协议方法](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/20-Protocol-Oriented-Programming/08-Optional-Protocol-Requirements.playground/Contents.swift)
 
-* **第二十一章: 面向协议的编程** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/21-Error-Handling)
+* **第二十一章: 错误处理** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/21-Error-Handling)
 
    * 21-1 强制退出程序 [**Course Video**](http://t.imooc.com/video/12074)
    		* [强制退出程序](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/01-1-Exit-the-Program-Forcfully.playground/Contents.swift)
