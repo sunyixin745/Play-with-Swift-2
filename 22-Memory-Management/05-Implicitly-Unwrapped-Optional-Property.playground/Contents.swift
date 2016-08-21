@@ -5,13 +5,13 @@ import UIKit
 class Country{
     
     let name: String
-    //let capital: String
+    //let capital: City
     var capital: City!
     
     init(countryName: String, capitalName: String){
         self.name = countryName
-        //self.capital = capitalName
         self.capital = City(cityName: capitalName, country: self)
+        print("Country", name, "is intialized.")
     }
     
     deinit{
@@ -27,6 +27,7 @@ class City{
     init(cityName: String, country: Country){
         self.name = cityName
         self.country = country
+        print("City", name, "is intialized.")
     }
     
     deinit{
@@ -35,6 +36,6 @@ class City{
 }
 
 var china: Country? = Country(countryName: "China", capitalName: "Beijing")
-
+china = nil
 
 
