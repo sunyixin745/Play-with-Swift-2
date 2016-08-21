@@ -9,11 +9,11 @@ class Person{
     
     init(name: String){
         self.name = name
-        print(name,"is initialized")
+        print("Person", name, "is initialized")
     }
     
     deinit{
-        print("Person",name,"is being deinitialized!")
+        print("Person", name, "is being deinitialized!")
     }
 }
 
@@ -25,16 +25,17 @@ class CreditCard{
     init(number: String, customer: Person){
         self.number = number
         self.customer = customer
+        print("Credit Card", number, "is initialized")
     }
     
     deinit{
-        print("Credit Card",number,"is being deinitialized!")
+        print("Credit Card", number, "is being deinitialized!")
     }
 }
 
 var liuyubobobo: Person? = Person(name: "liuyubobobo")
 var goldenCard: CreditCard? = CreditCard(number: "12345678", customer: liuyubobobo!)
-liuyubobobo!.creditCard = goldenCard!
+liuyubobobo?.creditCard = goldenCard!
 
 liuyubobobo = nil
 

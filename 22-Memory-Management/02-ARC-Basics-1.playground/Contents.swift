@@ -8,11 +8,11 @@ class Person{
     
     init(name: String){
         self.name = name
-        print(name,"is initialized")
+        print("Person", name, "is initialized")
     }
     
     deinit{
-        print(name,"is being deinitialized!")
+        print("Person", name, "is being deinitialized!")
     }
 }
 

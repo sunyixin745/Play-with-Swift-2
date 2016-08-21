@@ -9,11 +9,11 @@ class Person{
     
     init(name: String){
         self.name = name
-        print(name,"is initialized")
+        print("Person", name, "is initialized")
     }
     
     deinit{
-        print("Person",name,"is being deinitialized!")
+        print("Person", name, "is being deinitialized!")
     }
 }
 
@@ -24,10 +24,11 @@ class Apartment{
     
     init(name: String){
         self.name = name
+        print("Apartment", name, "is initialized!")
     }
     
     deinit{
-        print("Apartment",name,"is being deinitialized!")
+        print("Apartment", name, "is being deinitialized!")
     }
 }
 
