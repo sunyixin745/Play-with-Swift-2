@@ -7,8 +7,19 @@ class smartAirConditioner{
     private var temperature: Int = 26
     var temperatureChange: ((Int) -> ())!
     
+//    init(){
+//        temperatureChange = { [weak self](newTemperature) in
+//            if abs(newTemperature - self!.temperature) >= 10{
+//                print("It's not healthy to do it!")
+//            }
+//            else{
+//                self!.temperature = newTemperature
+//            }
+//        }
+//    }
+    
     init(){
-        temperatureChange = { /*[weak self]*/[unowned self](newTemperature: Int) -> () in
+        temperatureChange = { [unowned self](newTemperature) in
             if abs(newTemperature - self.temperature) >= 10{
                 print("It's not healthy to do it!")
             }
