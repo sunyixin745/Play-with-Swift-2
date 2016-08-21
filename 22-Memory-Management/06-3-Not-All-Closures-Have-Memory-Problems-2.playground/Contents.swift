@@ -2,7 +2,7 @@
 
 import UIKit
 
-class smartAirConditioner{
+class SmartAirConditioner{
     
     var temperature: Int = 26
     var temperatureChange: ((Int) -> ())!
@@ -24,7 +24,7 @@ class smartAirConditioner{
     }
 }
 
-var airCon: smartAirConditioner? = smartAirConditioner()
+var airCon: SmartAirConditioner? = SmartAirConditioner()
 airCon?.temperature
 airCon?.temperatureChange(100)
 
