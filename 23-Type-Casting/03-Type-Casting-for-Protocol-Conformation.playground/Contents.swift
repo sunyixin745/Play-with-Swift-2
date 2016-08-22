@@ -58,8 +58,8 @@ let shapes:[Shape] = [
 
 for shape in shapes{
     
-    if let areaShape = shape as? HasArea{
-        print("The area of \(shape.name) is \(areaShape.area()).")
+    if shape is HasArea{
+        print("\(shape.name) has area.")
     }
     else{
         print("\(shape.name) has no area.")
@@ -70,11 +70,15 @@ print("==========")
 
 for shape in shapes{
     
-    if shape is HasArea{
-        print("\(shape.name) has area.")
+    if let areaShape = shape as? HasArea{
+        print("The area of \(shape.name) is \(areaShape.area()).")
     }
     else{
         print("\(shape.name) has no area.")
     }
 }
+
+
+
+
 
