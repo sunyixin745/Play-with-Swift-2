@@ -364,6 +364,18 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
    * 21-4 ``defer`` [**Course Video**](http://t.imooc.com/video/12077)
       * [``defer``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/04-defer.playground/Contents.swift)
 
+* **Chapter Twenty-Two: Memory Management** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/22-Memory-Management)
+
+   * 22-1 ``deinit`` [**Course Video**](http://t.imooc.com/video/12074)
+   		* [``deinit``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/01-1-Exit-the-Program-Forcfully.playground/Contents.swift)
+   		* [``assert`` in Action](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/01-2-Assert-in-Action.playground/Contents.swift)
+   * 21-2 Error Type [**Course Video**](http://t.imooc.com/video/12075)
+      * [Error Type](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/02-Error-Type.playground/Contents.swift)
+   * 21-3 Error Handling [**Course Video**](http://t.imooc.com/video/12076)
+      * [Error Handling](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/03-Error-Handling.playground/Contents.swift)
+   * 21-4 ``defer`` [**Course Video**](http://t.imooc.com/video/12077)
+      * [``defer``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/04-defer.playground/Contents.swift)
+
 ---
 
 ###**第一季**
