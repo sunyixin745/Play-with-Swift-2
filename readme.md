@@ -367,15 +367,23 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 * **Chapter Twenty-Two: Memory Management** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/22-Memory-Management)
 
    * 22-1 ``deinit`` [**Course Video**](http://t.imooc.com/video/12074)
-   		* [``deinit``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/01-1-Exit-the-Program-Forcfully.playground/Contents.swift)
-   		* [``assert`` in Action](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/01-2-Assert-in-Action.playground/Contents.swift)
-   * 21-2 Error Type [**Course Video**](http://t.imooc.com/video/12075)
-      * [Error Type](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/02-Error-Type.playground/Contents.swift)
-   * 21-3 Error Handling [**Course Video**](http://t.imooc.com/video/12076)
-      * [Error Handling](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/03-Error-Handling.playground/Contents.swift)
-   * 21-4 ``defer`` [**Course Video**](http://t.imooc.com/video/12077)
-      * [``defer``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/04-defer.playground/Contents.swift)
-
+   		* [``deinit``]
+   * 22-2 Reference Count and ARC [**Course Video**](http://t.imooc.com/video/12075)
+      * [Reference Count]
+      * [ARC Basics]
+   * 22-3 Strong Reference Cycle and ``weak`` [**Course Video**](http://t.imooc.com/video/12076)
+      * [Strong Reference Cycle]
+      * [``weak``]
+   * 22-4 ``unowned`` [**Course Video**](http://t.imooc.com/video/12077)
+      * [``unowned``]
+   * 22-5 Using Implicity Unwrapped Optional Property [**Course Video**](http://t.imooc.com/video/12077)
+      * [Using Implicity Unwrapped Optional Property]
+   * 22-6 Strong Reference Cycles in Closures [**Course Video**](http://t.imooc.com/video/12077)
+      * [Strong Reference Cycles in Closures]
+			* [Not All Closures Have Memory Problems 1]
+			* [Not All Closures Have Memory Problems 2]
+   * 22-7 Resolving Strong Reference Cycles for Closures [**Course Video**](http://t.imooc.com/video/12077)
+      * [Resolving Strong Reference Cycles for Closures]() 
 ---
 
 ###**第一季**
