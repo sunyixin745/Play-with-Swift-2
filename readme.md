@@ -395,6 +395,11 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
       * [Type Casting for Protocol Conformation](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/23-Type-Casting/03-Type-Casting-for-Protocol-Conformation.playground/Contents.swift)
    * 23-4 ``NSObject``, ``AnyObject`` and ``Any`` [**Course Video**](http://t.imooc.com/video/12670)
       * [``NSObject``, ``AnyObject`` and ``Any``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/23-Type-Casting/04-NSObject-AnyObject-and-Any.playground/Contents.swift)
+
+* **Chapter Twenty-Four: The Ending**
+
+   * 24-1 Hello, Swift3! [**Course Video**](http://t.imooc.com/video/12671)
+   * 24-2 What's Next? [**Course Video**](http://t.imooc.com/video/12672)
       
 ---
 
@@ -758,6 +763,11 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
       * [Type Casting for Protocol Conformation](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/23-Type-Casting/03-Type-Casting-for-Protocol-Conformation.playground/Contents.swift)
    * 23-4 ``NSObject``, ``AnyObject`` 和 ``Any`` [**课程视频**](http://t.imooc.com/video/12670)
       * [``NSObject``, ``AnyObject`` and ``Any``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/23-Type-Casting/04-NSObject-AnyObject-and-Any.playground/Contents.swift)
+
+* **第二十四章: 结语**
+
+   * 24-1 迎接 Swift3 [**Course Video**](http://t.imooc.com/video/12671)
+   * 24-2 学完Swift语言之后，应该学什么？大家加油！ [**Course Video**](http://t.imooc.com/video/12672)
 
 ---
 
