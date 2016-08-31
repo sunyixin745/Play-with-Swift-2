@@ -366,24 +366,25 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 
 * **Chapter Twenty-Two: Memory Management** [**CODE**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/22-Memory-Management)
 
-   * 22-1 ``deinit`` [**Course Video**](http://t.imooc.com/video/12074)
-   		* [``deinit``]
-   * 22-2 Reference Count and ARC [**Course Video**](http://t.imooc.com/video/12075)
-      * [Reference Count]
-      * [ARC Basics]
-   * 22-3 Strong Reference Cycle and ``weak`` [**Course Video**](http://t.imooc.com/video/12076)
-      * [Strong Reference Cycle]
-      * [``weak``]
-   * 22-4 ``unowned`` [**Course Video**](http://t.imooc.com/video/12077)
-      * [``unowned``]
-   * 22-5 Using Implicity Unwrapped Optional Property [**Course Video**](http://t.imooc.com/video/12077)
-      * [Using Implicity Unwrapped Optional Property]
-   * 22-6 Strong Reference Cycles in Closures [**Course Video**](http://t.imooc.com/video/12077)
-      * [Strong Reference Cycles in Closures]
-			* [Not All Closures Have Memory Problems 1]
-			* [Not All Closures Have Memory Problems 2]
-   * 22-7 Resolving Strong Reference Cycles for Closures [**Course Video**](http://t.imooc.com/video/12077)
-      * [Resolving Strong Reference Cycles for Closures]() 
+   * 22-1 ``deinit`` [**Course Video**](http://t.imooc.com/video/12660)
+   		* [``deinit``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/01-deinit.playground/Contents.swift)
+   * 22-2 Reference Count and ARC [**Course Video**](http://t.imooc.com/video/12661)
+      * [Reference Count](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/02-1-Reference-Count.playground/Contents.swift)
+      * [ARC Basics](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/02-2-ARC-Basics.playground/Contents.swift)
+   * 22-3 Strong Reference Cycle and ``weak`` [**Course Video**](http://t.imooc.com/video/12662)
+      * [Strong Reference Cycle](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/03-1-Strong-Reference-Cycles.playground/Contents.swift)
+      * [``weak``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/03-2-Use-weak.playground/Contents.swift)
+   * 22-4 ``unowned`` [**Course Video**](http://t.imooc.com/video/12663)
+      * [``unowned``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/04-Use-unowned.playground/Contents.swift)
+   * 22-5 Using Implicity Unwrapped Optional Property [**Course Video**](http://t.imooc.com/video/12664)
+      * [Using Implicity Unwrapped Optional Property](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/05-Implicitly-Unwrapped-Optional-Property.playground/Contents.swift)
+   * 22-6 Strong Reference Cycles in Closures [**Course Video**](http://t.imooc.com/video/12665)
+      * [Strong Reference Cycles in Closures](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/06-1-Strong-Reference-Cycles-for-Closures.playground/Contents.swift)
+			* [Not All Closures Have Memory Problems 1](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/06-2-Not-All-Closures-Have-Memory-Problems-1.playground/Contents.swift)
+			* [Not All Closures Have Memory Problems 2](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/06-3-Not-All-Closures-Have-Memory-Problems-2.playground/Contents.swift)
+   * 22-7 Resolving Strong Reference Cycles for Closures [**Course Video**](http://t.imooc.com/video/12666)
+      * [Resolving Strong Reference Cycles for Closures](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/07-Resolving-Strong-Reference-Cycles-for-Closures.playground/Contents.swift) 
+      
 ---
 
 ###**第一季**
@@ -705,15 +706,36 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 
 * **第二十一章: 错误处理** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/21-Error-Handling)
 
-   * 21-1 强制退出程序 [**Course Video**](http://t.imooc.com/video/12074)
+   * 21-1 强制退出程序 [**课程视频**](http://t.imooc.com/video/12074)
    		* [强制退出程序](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/01-1-Exit-the-Program-Forcfully.playground/Contents.swift)
    		* [使用 ``assert``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/01-2-Assert-in-Action.playground/Contents.swift)
-   * 21-2 错误类型 [**Course Video**](http://t.imooc.com/video/12075)
+   * 21-2 错误类型 [**课程视频**](http://t.imooc.com/video/12075)
       * [错误类型](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/02-Error-Type.playground/Contents.swift)
-   * 21-3 错误处理 [**Course Video**](http://t.imooc.com/video/12076)
+   * 21-3 错误处理 [**课程视频**](http://t.imooc.com/video/12076)
       * [错误处理](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/03-Error-Handling.playground/Contents.swift)
-   * 21-4 ``defer`` [**Course Video**](http://t.imooc.com/video/12077)
+   * 21-4 ``defer`` [**课程视频**](http://t.imooc.com/video/12077)
       * [``defer``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/21-Error-Handling/04-defer.playground/Contents.swift)
+
+* **第二十二章: 内存管理** [**源码**](https://github.com/liuyubobobo/Play-with-Swift-2/tree/master/22-Memory-Management)
+
+   * 22-1 ``deinit`` [**课程视频**](http://t.imooc.com/video/12660)
+   		* [``deinit``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/01-deinit.playground/Contents.swift)
+   * 22-2 引用计数和ARC [**课程视频**](http://t.imooc.com/video/12661)
+      * [引用计数](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/02-1-Reference-Count.playground/Contents.swift)
+      * [ARC基础](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/02-2-ARC-Basics.playground/Contents.swift)
+   * 22-3 强引用循环和``weak`` [**课程视频**](http://t.imooc.com/video/12662)
+      * [强引用循环](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/03-1-Strong-Reference-Cycles.playground/Contents.swift)
+      * [``weak``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/03-2-Use-weak.playground/Contents.swift)
+   * 22-4 ``unowned`` [**课程视频**](http://t.imooc.com/video/12663)
+      * [``unowned``](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/04-Use-unowned.playground/Contents.swift)
+   * 22-5 使用隐式可选型 [**课程视频**](http://t.imooc.com/video/12664)
+      * [使用隐式可选型](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/05-Implicitly-Unwrapped-Optional-Property.playground/Contents.swift)
+   * 22-6 闭包中的强引用循环 [**课程视频**](http://t.imooc.com/video/12665)
+      * [闭包中的强引用循环](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/06-1-Strong-Reference-Cycles-for-Closures.playground/Contents.swift)
+      * [并非所有闭包都有内存问题 1](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/06-2-Not-All-Closures-Have-Memory-Problems-1.playground/Contents.swift)
+      * [并非所有闭包都有内存问题 2](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/06-3-Not-All-Closures-Have-Memory-Problems-2.playground/Contents.swift)
+   * 22-7 解决闭包中的强引用循环 [**课程视频**](http://t.imooc.com/video/12666)
+      * [解决闭包中的强引用循环](https://github.com/liuyubobobo/Play-with-Swift-2/blob/master/22-Memory-Management/07-Resolving-Strong-Reference-Cycles-for-Closures.playground/Contents.swift) 
 
 ---
 
