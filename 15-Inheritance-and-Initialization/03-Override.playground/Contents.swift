@@ -8,8 +8,10 @@ class Avatar{
     var name: String
     var life = 100{
         didSet{
-            if life <= 0{
+            if life <= 0 {
                 isAlive = false
+            } else {
+                isAlive = true
             }
             if life > 100{
                 life = 100
@@ -35,7 +37,7 @@ class User: Avatar{
     
     var score = 0
     var level = 0
-    // 重载属性
+    // 重写属性
     override var description: String{
         return "I'm User \(name)."
     }
@@ -68,7 +70,7 @@ final class Warrior: User{
         return "I'm Warrior \(name)."
     }
     
-    // 重载方法
+    // 重写方法
     override func beAttacked(attack: Int) {
         life -= attack/2
     }
