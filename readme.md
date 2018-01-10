@@ -35,6 +35,10 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 
 **知乎**: [刘宇波 http://www.zhihu.com/people/liuyubobobo](http://www.zhihu.com/people/liuyubobobo)
 
+**个人公众号：是不是很酷**
+
+![QRCode](qrcode.jpg)
+
 ---
 
 ## Catalogue - 课程目录 
