@@ -1,16 +1,15 @@
-##重要更新
+## 重要更新
 
-本课程的所有示例代码已经基于最新的 **Swift3** 版本进行了升级。更新后的示例代码请参见项目： [**Play with Swift 3**](https://github.com/liuyubobobo/Play-with-Swift-3)
-
-https://github.com/liuyubobobo/Play-with-Swift-3
+感谢 [@JeffreyW2947](https://github.com/JeffreyWang2864) 同学！这是一位正在美国读高中的计算机天才，将我的这个课程的所有内容都基于最新的Swift4语言进行了更新，传送门：[**Play with Swift 4**](https://github.com/JeffreyWang2864/Play-with-Swift-3)
 
 对swift感兴趣的同学，欢迎加我的个人微信：**liuyubobobo**（头像和github一致），一起加入swift微信群讨论：）请注明：**swift交流**
 
-**以下内容为原课程swift2代码，已停止更新。**
-
 ---
 
-##Play with Swift 2 - 玩儿转 Swift 2
+**以下内容为原课程swift2代码，已停止更新。**
+
+
+## Play with Swift 2 - 玩儿转 Swift 2
 
 **Support the newest Xcode7.3 and Swift2.2! 现已支持Swift最新版本 Xcode7.3 Swift2.2!**
 
@@ -38,7 +37,7 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 
 ---
 
-##Catalogue - 课程目录 
+## Catalogue - 课程目录 
 
 中文版课程目录在英文版目录后，直接[点击这里](https://github.com/liuyubobobo/Play-with-Swift-2#第一季)查看中文目录
 
@@ -784,6 +783,7 @@ Welcome! This repo is based on the MOOC course [<Play with Swift 2>](http://t.im
 特别感谢以下github用户，帮助完善了这个课程的代码：
 
 * [leavie](https://github.com/leavie)
+* [JeffreyWang2864](https://github.com/JeffreyWang2864)
 
 最后，感谢这个时代。
 
